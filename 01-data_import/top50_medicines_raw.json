@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2025-02-10"
+  },
+  "results": [
+    {
+      "term": "HUMIRA",
+      "count": 648353
+    },
+    {
+      "term": "ENBREL",
+      "count": 567097
+    },
+    {
+      "term": "ZANTAC",
+      "count": 355882
+    },
+    {
+      "term": "REVLIMID",
+      "count": 338869
+    },
+    {
+      "term": "DUPIXENT",
+      "count": 286747
+    },
+    {
+      "term": "ASPIRIN",
+      "count": 274181
+    },
+    {
+      "term": "METFORMIN",
+      "count": 272073
+    },
+    {
+      "term": "AMLODIPINE",
+      "count": 239051
+    },
+    {
+      "term": "METHOTREXATE",
+      "count": 234387
+    },
+    {
+      "term": "ATORVASTATIN",
+      "count": 222326
+    },
+    {
+      "term": "PREDNISONE.",
+      "count": 222074
+    },
+    {
+      "term": "PREDNISONE",
+      "count": 221798
+    },
+    {
+      "term": "LYRICA",
+      "count": 189722
+    },
+    {
+      "term": "ASPIRIN.",
+      "count": 186210
+    },
+    {
+      "term": "ELIQUIS",
+      "count": 183101
+    },
+    {
+      "term": "PROACTIV MD ADAPALENE ACNE TREATMENT",
+      "count": 174459
+    },
+    {
+      "term": "TYSABRI",
+      "count": 173896
+    },
+    {
+      "term": "XARELTO",
+      "count": 173070
+    },
+    {
+      "term": "LIPITOR",
+      "count": 173008
+    },
+    {
+      "term": "SYNTHROID",
+      "count": 172254
+    },
+    {
+      "term": "PANTOPRAZOLE",
+      "count": 172001
+    },
+    {
+      "term": "OMEPRAZOLE.",
+      "count": 169714
+    },
+    {
+      "term": "OXYCONTIN",
+      "count": 168947
+    },
+    {
+      "term": "NEXIUM",
+      "count": 167424
+    },
+    {
+      "term": "REMICADE",
+      "count": 159729
+    },
+    {
+      "term": "VITAMIN D",
+      "count": 155557
+    },
+    {
+      "term": "GABAPENTIN.",
+      "count": 155148
+    },
+    {
+      "term": "METHOTREXATE.",
+      "count": 148653
+    },
+    {
+      "term": "LISINOPRIL.",
+      "count": 147873
+    },
+    {
+      "term": "VITAMIN D3",
+      "count": 146981
+    },
+    {
+      "term": "REPATHA",
+      "count": 146170
+    },
+    {
+      "term": "COSENTYX",
+      "count": 144490
+    },
+    {
+      "term": "ACETAMINOPHEN",
+      "count": 144087
+    },
+    {
+      "term": "DEXAMETHASONE.",
+      "count": 143934
+    },
+    {
+      "term": "PROLIA",
+      "count": 142712
+    },
+    {
+      "term": "PROACTIV MD DEEP CLEANSING FACE WASH",
+      "count": 141977
+    },
+    {
+      "term": "OMEPRAZOLE",
+      "count": 141643
+    },
+    {
+      "term": "AVONEX",
+      "count": 140572
+    },
+    {
+      "term": "TYLENOL",
+      "count": 137321
+    },
+    {
+      "term": "LASIX",
+      "count": 135805
+    },
+    {
+      "term": "CALCIUM",
+      "count": 135281
+    },
+    {
+      "term": "OTEZLA",
+      "count": 134869
+    },
+    {
+      "term": "PROACTIV MD DAILY OIL CONTROL SPF 30",
+      "count": 130416
+    },
+    {
+      "term": "MIRENA",
+      "count": 127569
+    },
+    {
+      "term": "LISINOPRIL",
+      "count": 126774
+    },
+    {
+      "term": "FUROSEMIDE.",
+      "count": 126646
+    },
+    {
+      "term": "SPIRIVA",
+      "count": 125267
+    },
+    {
+      "term": "RANITIDINE.",
+      "count": 124537
+    },
+    {
+      "term": "DEXAMETHASONE",
+      "count": 119413
+    },
+    {
+      "term": "FOLIC ACID",
+      "count": 119160
+    }
+  ]
+}
