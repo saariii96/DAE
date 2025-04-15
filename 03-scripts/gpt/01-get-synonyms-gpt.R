@@ -24,9 +24,25 @@ get_gpt_synonyms <- function(drug_name, model = "gpt-3.5-turbo") {
   )
   
   output <- content(res, as = "parsed")
-  synonyms_raw <- output$choices[[1]]$message$content
+  
+  # Debug anzeigen
+  print(output)
+  
+  # Versuche die Antwort zu extrahieren
+  synonyms_raw <- tryCatch({
+    output$choices[[1]]$message$content
+  }, error = function(e) {
+    warning("Konnte content aus der Antwort nicht extrahieren.")
+    return(NULL)
+  })
+  
+  if (is.null(synonyms_raw) || !is.character(synonyms_raw)) {
+    warning(paste("Keine gültige GPT-Antwort für", drug_name))
+    return(data.frame(drug = drug_name, synonym = NA))
+  }
+  
+  # Aufteilen in einzelne Synonyme
   synonyms <- unlist(strsplit(synonyms_raw, ",\\s*"))
   return(data.frame(drug = drug_name, synonym = synonyms))
 }
 
-#Test

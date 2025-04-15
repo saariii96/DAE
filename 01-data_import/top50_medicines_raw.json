@@ -8,19 +8,19 @@
   "results": [
     {
       "term": "HUMIRA",
-      "count": 648353
+      "count": 648354
     },
     {
       "term": "ENBREL",
-      "count": 567097
+      "count": 567095
     },
     {
       "term": "ZANTAC",
-      "count": 355882
+      "count": 355880
     },
     {
       "term": "REVLIMID",
-      "count": 338869
+      "count": 338866
     },
     {
       "term": "DUPIXENT",
@@ -28,23 +28,23 @@
     },
     {
       "term": "ASPIRIN",
-      "count": 274181
+      "count": 274157
     },
     {
       "term": "METFORMIN",
-      "count": 272073
+      "count": 272072
     },
     {
       "term": "AMLODIPINE",
-      "count": 239051
+      "count": 239040
     },
     {
       "term": "METHOTREXATE",
-      "count": 234387
+      "count": 234378
     },
     {
       "term": "ATORVASTATIN",
-      "count": 222326
+      "count": 222331
     },
     {
       "term": "PREDNISONE.",
@@ -52,11 +52,11 @@
     },
     {
       "term": "PREDNISONE",
-      "count": 221798
+      "count": 221816
     },
     {
       "term": "LYRICA",
-      "count": 189722
+      "count": 189724
     },
     {
       "term": "ASPIRIN.",
@@ -72,7 +72,7 @@
     },
     {
       "term": "TYSABRI",
-      "count": 173896
+      "count": 173894
     },
     {
       "term": "XARELTO",
@@ -80,15 +80,15 @@
     },
     {
       "term": "LIPITOR",
-      "count": 173008
+      "count": 173003
     },
     {
       "term": "SYNTHROID",
-      "count": 172254
+      "count": 172255
     },
     {
       "term": "PANTOPRAZOLE",
-      "count": 172001
+      "count": 172002
     },
     {
       "term": "OMEPRAZOLE.",
@@ -96,19 +96,19 @@
     },
     {
       "term": "OXYCONTIN",
-      "count": 168947
+      "count": 168942
     },
     {
       "term": "NEXIUM",
-      "count": 167424
+      "count": 167419
     },
     {
       "term": "REMICADE",
-      "count": 159729
+      "count": 159725
     },
     {
       "term": "VITAMIN D",
-      "count": 155557
+      "count": 155556
     },
     {
       "term": "GABAPENTIN.",
@@ -136,7 +136,7 @@
     },
     {
       "term": "ACETAMINOPHEN",
-      "count": 144087
+      "count": 144085
     },
     {
       "term": "DEXAMETHASONE.",
@@ -152,23 +152,23 @@
     },
     {
       "term": "OMEPRAZOLE",
-      "count": 141643
+      "count": 141646
     },
     {
       "term": "AVONEX",
-      "count": 140572
+      "count": 140575
     },
     {
       "term": "TYLENOL",
-      "count": 137321
+      "count": 137320
     },
     {
       "term": "LASIX",
-      "count": 135805
+      "count": 135808
     },
     {
       "term": "CALCIUM",
-      "count": 135281
+      "count": 135276
     },
     {
       "term": "OTEZLA",
@@ -184,7 +184,7 @@
     },
     {
       "term": "LISINOPRIL",
-      "count": 126774
+      "count": 126764
     },
     {
       "term": "FUROSEMIDE.",
@@ -192,7 +192,7 @@
     },
     {
       "term": "SPIRIVA",
-      "count": 125267
+      "count": 125264
     },
     {
       "term": "RANITIDINE.",
@@ -200,11 +200,11 @@
     },
     {
       "term": "DEXAMETHASONE",
-      "count": 119413
+      "count": 119414
     },
     {
       "term": "FOLIC ACID",
-      "count": 119160
+      "count": 119153
     }
   ]
 }
