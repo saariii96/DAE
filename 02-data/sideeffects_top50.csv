@@ -1,154 +1,601 @@
 "drug","side_effects"
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"humira",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"enbrel",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"zantac",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"revlimid",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"dupixent",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
-"aspirin",NA
+"humira","Chest pain; Oedema peripheral; Gastrooesophageal reflux disease"
+"humira","Oesophageal perforation; Gastric haemorrhage; Hepatic failure"
+"humira","Urticaria; Somnolence"
+"humira","Breast cancer; Erythema"
+"humira","Rectal haemorrhage; Rectal haemorrhage; Asthenia; Weight decreased"
+"humira","Organising pneumonia; Fall; Lung infection; Urinary tract infection bacterial; Lower respiratory tract infection bacterial; Acute respiratory distress syndrome; Loss of consciousness; Psoriasis; Blood cholesterol increased; Amnesia; Dyspnoea; Headache; Exposure to contaminated water"
+"humira","Blindness"
+"humira","Hyponatraemia; Dyspnoea; Pyrexia; Pancreatitis; Influenza; Pneumonia; Sepsis"
+"humira","Arthropathy; Osteonecrosis"
+"humira","Malaise"
+"humira","Muscular weakness; Paraesthesia"
+"humira","Mycobacterium tuberculosis complex test positive; Headache; Chest discomfort"
+"humira","Myocardial infarction"
+"humira","Rectocele"
+"humira","Vaginal haemorrhage; Smear cervix abnormal"
+"humira","Asthenia; Cold sweat; Nausea; Palpitations"
+"humira","Myocardial infarction"
+"humira","Appendix disorder"
+"humira","Joint dislocation"
+"humira","Bronchial carcinoma"
+"humira","Hypoaesthesia; Tremor; Feeling hot; Hyperhidrosis; Mobility decreased; Asthenia; Local swelling"
+"humira","Ileectomy"
+"humira","Tooth disorder; Colitis ulcerative"
+"humira","Thrombocytopenia; Petechiae"
+"humira","Respiratory arrest; Pleural effusion"
+"humira","Malaise; Pain; Feeling abnormal"
+"humira","Petechiae; Thrombocytopenia; Intra-abdominal haematoma"
+"humira","Ileal stenosis; Crohn^s disease; Abdominal distension; Discomfort; Crohn^s disease; Pain"
+"humira","Brain neoplasm; Brain neoplasm benign"
+"humira","Intestinal mucosal hypertrophy; Gastrointestinal inflammation; Adenocarcinoma of colon; Intestinal obstruction; Abdominal pain"
+"humira","Fall; Injection site haemorrhage; Abdominal pain; Fluid retention; Gait disturbance; Chest pain; Paraesthesia; Neuropathy peripheral; Movement disorder; Muscular weakness; Hyperhidrosis; Lung disorder; Dizziness; Injection site pain; Psoriatic arthropathy; Hepatitis; Tuberculosis; Dyspnoea; Epididymitis; Dysuria; Bladder discomfort; Suicidal ideation; Gait disturbance; Feeling hot; Dizziness; Tinnitus; Aphasia; Nerve injury; Dysphemia; Abdominal discomfort; Emotional disorder; Disturbance in attention; Arthralgia; Dysarthria; Testicular pain; Abdominal pain; Gonorrhoea; Oedema peripheral; Nausea; Orchitis; Feeling abnormal; Nervous system disorder; Balance disorder; Disorientation; Incorrect drug administration rate; Pollakiuria; Fatigue; Injection site pain; Peripheral swelling; Cerebrovascular accident; Unevaluable event; Injection site pain; Psoriasis"
+"humira","Malaise; Device issue; Cholecystectomy; Abdominal infection; Psoriasis; Pruritus; Dry skin; Drug dose omission; Injection site reaction; Injection site reaction"
+"humira","General physical health deterioration; Hypotension; Syncope"
+"humira","Intestinal stenosis"
+"humira","Joint swelling; Bedridden; Pyrexia"
+"humira","Faecal incontinence; Neck surgery; Drug effect decreased; Abdominal pain; Diarrhoea; Cellulitis"
+"humira","Varicose vein; Rheumatoid arthritis"
+"humira","Heart rate increased; Palpitations; Chest pain"
+"humira","Cardiac murmur; Mitral valve incompetence; Bronchiectasis; Atrial septal defect; Joint swelling; Inflammation; Inflammation; Cough; Upper respiratory tract infection; Productive cough; Rheumatoid lung; Dizziness; Blood pressure increased"
+"humira","Pneumonia; Fall; Face injury; Loss of consciousness; Asthenia; Contusion; Fall; Head injury; Asthenia"
+"humira","Osteoarthritis; Arthritis; Drug ineffective"
+"humira","Dermatitis; Abscess neck"
+"humira","Bone erosion"
+"humira","Chest pain; Drug dose omission; Dyspnoea"
+"humira","Convulsion; Stress; Unevaluable event"
+"humira","Sudden hearing loss"
+"humira","Drug hypersensitivity"
+"humira","Pustular psoriasis; Onychomadesis; Alopecia; Psoriasis"
+"humira","Irritable bowel syndrome"
+"humira","C-reactive protein increased; Red blood cell sedimentation rate increased; Diarrhoea; Diarrhoea; Clostridium difficile infection; Rash; Anal skin tags; Influenza; Off label use"
+"humira","Alopecia areata; Alopecia"
+"humira","Intestinal adenocarcinoma; Anaemia"
+"humira","Asthenia; Nausea; Vomiting; Decreased appetite; Blood electrolytes abnormal; Renal disorder"
+"humira","Pulmonary alveolar haemorrhage; Respiratory failure; Epistaxis; Rectal haemorrhage; Haematospermia; Haemorrhage"
+"humira","Meniscus injury; Surgery; Surgery; Prostatectomy; Injection site pain; Fear; Incorrect dose administered; Incorrect dose administered; Incorrect dose administered; Incorrect dose administered; Nervousness; Wrong technique in drug usage process; Arthralgia; Musculoskeletal pain; Pain; Wrong technique in drug usage process; Wrong technique in drug usage process; Wrong technique in drug usage process; Wrong technique in drug usage process; Device issue; Device issue; Device issue; Wrong technique in drug usage process; Incorrect dose administered; Device issue; Injection site pain"
+"humira","Cardiomegaly; Cerebrovascular accident; Cardiac failure; Myocardial infarction; Unevaluable event; Abnormal dreams; Fall; Hemiplegia; Left ventricular failure; Consciousness fluctuating; Platelet disorder"
+"humira","Myocardial infarction"
+"humira","Foot deformity; Foot deformity; Foot fracture; Foot fracture; Arthralgia; Pain in extremity; Pain; Pain; Product quality issue; Rheumatoid arthritis"
+"humira","Heart valve incompetence; Myocardial infarction; Psoriasis"
+"humira","Gastritis; Loss of consciousness; Gastrointestinal inflammation; Pyrexia; Rectal haemorrhage; Alopecia; Oral herpes; Blood glucose increased; Rectal haemorrhage; Depressed mood; Depression; Colitis ulcerative"
+"humira","Dysphagia; Hypersensitivity; Injection site rash; Rash generalised"
+"humira","Hernia; Cystitis"
+"humira","Dental caries"
+"humira","Transient ischaemic attack"
+"humira","Rotator cuff syndrome; Nasopharyngitis"
+"humira","Giant cell tumour of tendon sheath"
+"humira","Haemoglobin decreased; Cough; Pneumonia; Pyrexia"
+"humira","Arthropathy"
+"humira","Interstitial lung disease; Headache; Dyspnoea"
+"humira","Angioedema; Urticaria; Dyspnoea; Sensation of foreign body"
+"humira","Renal cancer; Pneumonia; Sinusitis; Injury; Drug effect incomplete; Psoriasis"
+"humira","Thyroid neoplasm; Goitre"
+"humira","Crohn^s disease"
+"humira","Tuberculin test positive; Asthenia"
+"humira","Intestinal stenosis; Diarrhoea; Abdominal pain"
+"humira","Tuberculin test positive"
+"humira","Ligament sprain; Ligament rupture; Road traffic accident; Tonsillitis; Upper respiratory tract infection; Asthenia; Pain in extremity; Swelling face"
+"humira","Medical device complication; Joint arthroplasty"
+"humira","Rash generalised; Presyncope"
+"humira","Skin ulcer; Psoriasis; Alopecia"
+"humira","Gastric cancer stage IV; Abdominal pain upper; Chest pain; Back pain; Lymphadenopathy; Lymphoma; Hepatic cancer stage IV; Weight decreased; Hypophagia; Increased tendency to bruise; Hearing impaired; Visual impairment; Fatigue; Knee arthroplasty"
+"humira","Decreased appetite; Abdominal pain; Pain; Drug ineffective; Intestinal resection"
+"humira","Infarction; Cerebrovascular accident"
+"humira","Intestinal obstruction; Haematuria; Urinary tract infection; Crohn^s disease"
+"humira","Cognitive disorder; Disturbance in attention; Learning disorder"
+"humira","Nephrotic syndrome; Renal failure acute"
+"humira","Diarrhoea haemorrhagic"
+"humira","Small intestinal obstruction; Enteritis"
+"humira","Syncope; Ventricular fibrillation; Cardiac failure"
+"humira","Myocardial infarction; General physical health deterioration"
+"humira","Cough; Clostridium difficile colitis; Diarrhoea; Pyrexia; Malaise; Drug ineffective; Inappropriate schedule of drug administration"
+"humira","Renal failure; Dyspnoea; Pneumonia; Sepsis; Bronchopneumonia; Immunodeficiency; Drug ineffective"
+"humira","Hepatic lesion; Hepatotoxicity; Generalised erythema; Dermatitis exfoliative; Drug ineffective"
+"humira","Bladder prolapse; Intestinal prolapse"
+"humira","Osteoarthritis; Arthralgia; Rheumatoid arthritis"
+"humira","Abdominal pain; Intestinal fistula; Abdominal pain; Wrong technique in drug usage process; Blood potassium decreased; Anaemia; Cholelithiasis; Device issue; Injection site rash; Vomiting; Wrong technique in drug usage process; Wound infection; Vomiting; Headache; Incorrect dose administered; Incorrect dose administered; Localised intraabdominal fluid collection; Large intestinal stenosis; Wound dehiscence; Drug ineffective; Dental caries; Weight decreased; Injection site erythema; Device issue"
+"humira","Hip fracture"
+"humira","Anal stenosis; Hypoaesthesia oral; Paraesthesia oral; Lip swelling"
+"humira","Sinus disorder"
+"humira","Lower extremity mass"
+"enbrel","Visual impairment"
+"enbrel","Arthralgia; Musculoskeletal pain; Psoriasis; Injection site pain"
+"enbrel","Injection site reaction; Injection site swelling; Injection site erythema; Injection site warmth"
+"enbrel","Lung disorder; Cholelithiasis; Cholecystitis; Hypertension; Bronchitis; Asthenia; Pterygium; Gastroenteritis"
+"enbrel","Death"
+"enbrel","Leukaemia"
+"enbrel","Knee arthroplasty; Drug effect decreased; Influenza"
+"enbrel","Haemorrhage"
+"enbrel","Hip arthroplasty"
+"enbrel","Arthropathy; Sinusitis"
+"enbrel","Death"
+"enbrel","Lower limb fracture; Abdominal discomfort; Back pain; Pain in extremity; Pain; Headache"
+"enbrel","Weight increased; Pyrexia; Rash macular; Arthralgia; Pain; Wrong technique in product usage process; Injection site pain; Pruritus; Osteoarthritis; Headache; Feeling hot; Dengue fever"
+"enbrel","Paraspinal abscess; Osteomyelitis"
+"enbrel","Gallbladder disorder; Umbilical hernia; Inflammation; Burning sensation; Injection site pain"
+"enbrel","Peptic ulcer; Hiatus hernia; Fatigue; Skin discolouration; Pain; Injection site bruising; Injection site erythema; Injection site reaction; Injection site urticaria; Injection site pruritus; Injection site swelling; Injection site warmth"
+"enbrel","Knee arthroplasty"
+"enbrel","Pneumothorax; Pulmonary oedema"
+"enbrel","Diarrhoea; Cellulitis"
+"enbrel","Decreased immune responsiveness; Tuberculosis"
+"enbrel","Diabetes mellitus; Agitation"
+"enbrel","Iritis"
+"enbrel","Fall; Bedridden; Limb injury; Drug administration error; Pruritus; Incorrect dose administered; Ear infection; Application site vesicles; Application site erythema; Application site pruritus"
+"enbrel","Angioedema"
+"enbrel","Death"
+"enbrel","Headache; Dizziness; Optic neuritis"
+"enbrel","Death"
+"enbrel","Lung neoplasm malignant"
+"enbrel","Rheumatoid arthritis"
+"enbrel","Local swelling; Hypoaesthesia; Pain in extremity; Urinary incontinence; Decreased immune responsiveness; Paraesthesia; Herpes virus infection; Peripheral coldness; Blister"
+"enbrel","Loss of consciousness; Respiratory arrest"
+"enbrel","Impaired healing; Spinal fusion surgery; Pain in extremity; Pain"
+"enbrel","Diverticulitis; Cellulitis; Infection"
+"enbrel","Headache; Chest pain"
+"enbrel","Neoplasm malignant"
+"enbrel","Pustular psoriasis; Onychomadesis; Alopecia; Psoriasis"
+"enbrel","Rash"
+"enbrel","Pyrexia"
+"enbrel","Ocular vascular disorder"
+"enbrel","Staphylococcal osteomyelitis"
+"enbrel","Autoimmune disorder; Encephalitis; Tonsillitis; Pyrexia; Lymphadenopathy; White blood cell count increased; C-reactive protein increased; Enteritis"
+"enbrel","Endometrial cancer; Unevaluable event"
+"enbrel","Renal failure; Respiratory failure; Hepatic failure; Pneumonia"
+"enbrel","Mobility decreased; Hip fracture; Fall"
+"enbrel","Hepatic failure; Glomerular filtration rate increased"
+"enbrel","Agranulocytosis; Listless"
+"enbrel","Haemorrhoids"
+"enbrel","Emergency care; Pulmonary oedema; Headache; Body temperature increased"
+"enbrel","Death"
+"enbrel","Retrograde amnesia; Loss of consciousness; Cerebrovascular accident; Arthralgia; Blister; Psoriasis"
+"enbrel","Diverticulitis"
+"enbrel","Pyrexia; Injection site pain; Ear infection; Breast haemorrhage; Breast mass; Dyspepsia; Injection site haematoma; Breast pain; Influenza; Urinary tract infection; Abdominal distension; Oropharyngeal pain; Wrong technique in product usage process"
+"enbrel","Cough; Q fever; Bronchitis"
+"enbrel","Thrombophlebitis superficial"
+"enbrel","Nasal congestion; Pyrexia; Cough"
+"enbrel","Pyrexia; Hyperhidrosis; Abdominal pain upper; White blood cell count increased; Inguinal hernia; Kidney infection"
+"enbrel","Surgery"
+"enbrel","Pain; Localised infection; Fluid retention; Weight increased; Feeling abnormal; Oedema peripheral; Inflammation; Injection site pain; Nausea; Abdominal pain; Pollakiuria; Headache; Product quality issue"
+"enbrel","Loss of consciousness; Myocardial infarction; Feeling jittery; Flushing; Intraocular lens implant"
+"enbrel","Yellow skin; Activities of daily living impaired; Limb discomfort; Dry throat; Arthralgia; Injection site pain; Drug ineffective; Fall; Weight decreased; Neck pain; Head injury; Visual impairment; Injection site pruritus; Hallucination; Mobility decreased; Anaemia; Injection site erythema; Condition aggravated; Deafness; Productive cough; Red blood cell sedimentation rate increased; Swelling; Pain; Thrombosis; Catarrh; Feeling abnormal; Injection site hypersensitivity; Rheumatoid arthritis; Joint swelling; Hypertension; Dry mouth; Hypersensitivity"
+"enbrel","Hernia; Prostatic disorder"
+"enbrel","Fear; Tuberculosis"
+"enbrel","Haemorrhage; Wound; Scab; Skin fissures; Pain; Gait disturbance; Fear; Arthralgia"
+"enbrel","Mobility decreased; Skin cancer; Pain in jaw; Bone swelling; Ear disorder; Tooth disorder; Inappropriate schedule of drug administration"
+"enbrel","Diverticulitis; Hernia"
+"enbrel","Haemoptysis; Lung disorder; Chest pain; Injection site erythema; Injection site swelling; Injection site pruritus"
+"enbrel","Urinary bladder haemorrhage; Drug ineffective; Infection"
+"enbrel","Neoplasm malignant; Hernia; Incision site infection"
+"enbrel","Tibia fracture; Ankle fracture; Ligament rupture; Meniscus injury; Fall; Fracture delayed union; Arthralgia; Pain; Mobility decreased"
+"enbrel","Incorrect route of drug administration; Motor dysfunction; Cerebrovascular accident"
+"enbrel","Rotator cuff repair; Arthralgia; Musculoskeletal pain; Increased upper airway secretion; Injection site pain"
+"enbrel","Uterine leiomyoma; Pyrexia; Cough; Rhinorrhoea; Respiratory tract congestion"
+"enbrel","Gait disturbance; Joint range of motion decreased; Musculoskeletal stiffness"
+"enbrel","Face oedema; Drug effect incomplete; Oedema; Skin lesion; Drug intolerance; Otitis media"
+"enbrel","Myocardial infarction; Fall; Somnolence; Aphasia"
+"enbrel","Renal cancer; Pneumonia; Sinusitis; Injury; Drug effect incomplete; Psoriasis"
+"enbrel","Pulmonary mass; Cough; Sinus disorder; Pain; Influenza"
+"enbrel","Furuncle"
+"enbrel","Musculoskeletal disorder; Mouth ulceration; Procedural pain; Oral discomfort"
+"enbrel","Sarcoma of skin"
+"enbrel","Liver injury; Aspartate aminotransferase increased; Alanine aminotransferase increased"
+"enbrel","Pancreatitis"
+"enbrel","Pruritus; Chills; Night sweats; Psoriasis; Injection site plaque; Foot fracture; Myalgia; Drug ineffective; Back pain; Injection site pain; Fatigue"
+"enbrel","Depressed mood; Rash generalised; Hypoaesthesia; Aspartate aminotransferase increased; Nodule; Cough; Contusion; Pain; Pain in extremity; Diarrhoea; Joint stiffness; Condition aggravated; Injection site swelling; Erythema; Gait disturbance; Exercise tolerance decreased; Synovitis; Joint range of motion decreased; Injection site induration; Infection; Skin fissures; Immunology test abnormal; Drug ineffective; Rheumatoid arthritis; Activities of daily living impaired; Wound secretion; Arthralgia; Laceration; Headache; Asthenia; Solar dermatitis; Rash; Musculoskeletal stiffness; Back pain; Raynaud^s phenomenon; Meniscus injury; Foot deformity; Local swelling; Insomnia; Mobility decreased; Injection site reaction; Injection site erythema; Paraesthesia; Feeling hot; Fatigue; Abdominal pain; Joint swelling"
+"enbrel","Oral surgery"
+"enbrel","Death"
+"enbrel","Limb discomfort; Bedridden; Arthralgia; Injection site pain; Mobility decreased; Fear of disease; Gait disturbance; Knee arthroplasty"
+"enbrel","Exostosis"
+"enbrel","Spinal fracture; Hepatitis C; Intervertebral disc compression; Nerve compression"
+"enbrel","Enteritis"
+"enbrel","Death; Ascites; Dehydration; Haematochezia; Intestinal perforation; Abdominal pain; Hypotension; Renal failure acute; Infection; Nasopharyngitis"
+"enbrel","Death"
+"enbrel","Colon cancer"
+"enbrel","Surgery"
+"enbrel","Pain; Joint swelling; Extrapulmonary tuberculosis"
+"enbrel","Atrial fibrillation; Arthralgia; Synovitis; Sleep disorder; Thrombosis; Drug interaction; Joint stiffness; Hypersensitivity"
+"enbrel","Adverse drug reaction; Drug hypersensitivity; Psoriasis"
+"enbrel","Rotator cuff syndrome; Fall; Limb discomfort; Mobility decreased; Tendon injury; Somnolence; Nausea"
+"enbrel","Artery dissection"
+"enbrel","Abortion spontaneous; Haematoma"
+"zantac","Haemoglobin decreased; Weight increased"
+"zantac","Decreased appetite; Depression"
+"zantac","Electrocardiogram QT prolonged"
+"zantac","Blood alkaline phosphatase increased"
+"zantac","Somnolence"
+"zantac","Heart rate increased; Palpitations; Chest pain"
+"zantac","Adverse event; Nausea; Vomiting"
+"zantac","Transverse sinus thrombosis"
+"zantac","Haemorrhage; Drug interaction"
+"zantac","Nephrogenic systemic fibrosis"
+"zantac","Depressed mood"
+"zantac","Constipation; Off label use"
+"zantac","Uterine perforation; Abdominal pain; General physical health deterioration; Anxiety; Anhedonia; Infection; Emotional distress; Uterine fibrosis"
+"zantac","Dehydration; Febrile neutropenia"
+"zantac","Sepsis; Pyrexia; Escherichia test positive; Klebsiella test positive"
+"zantac","Flatulence; Abdominal pain"
+"zantac","Platelet count decreased"
+"zantac","Haemoglobin decreased; Dizziness"
+"zantac","Local swelling; Pain in extremity; Vision blurred; Fatigue; Dysphagia; Sensation of foreign body; Drug ineffective"
+"zantac","Haemoglobin decreased; Weight increased; Night sweats"
+"zantac","Malaise; Asthenia; Oropharyngeal pain; Dysuria"
+"zantac","Anaemia; Drug ineffective"
+"zantac","Wheezing; Drug dose omission; Cough; Oropharyngeal pain"
+"zantac","Staphylococcal osteomyelitis"
+"zantac","Death; Cervical vertebral fracture; Fall"
+"zantac","Pneumonia; Dyspnoea; Chest pain; Dehydration; Nausea; Vomiting; Investigation"
+"zantac","Dizziness; Dizziness; Off label use"
+"zantac","Lower respiratory tract infection; Respiratory tract congestion; Condition aggravated; Aspiration; Off label use; Restrictive pulmonary disease; Bronchiolitis; Cough"
+"zantac","Death"
+"zantac","Gastrooesophageal reflux disease; Drug ineffective"
+"zantac","Drug ineffective"
+"zantac","Dyspnoea"
+"zantac","Nephrogenic systemic fibrosis"
+"zantac","Rhabdomyolysis; Myalgia; Rash generalised"
+"zantac","Coma; Gastrooesophageal reflux disease; Pneumonia aspiration; Somnolence; Underdose"
+"zantac","Drug ineffective"
+"zantac","Drug hypersensitivity"
+"zantac","Pyrexia; Gastric cancer"
+"zantac","Drug ineffective; False positive investigation result"
+"zantac","Dyspnoea; Abdominal discomfort; Deformity; Haemorrhagic anaemia; Fatigue; Loss of employment; Social problem; Pain; Anhedonia; Gastrointestinal haemorrhage; Injury; Physical disability; Tension; Economic problem; Psychological trauma"
+"zantac","Anaphylactic reaction"
+"zantac","Hypersensitivity; Off label use"
+"zantac","Infusion related reaction"
+"zantac","Loss of consciousness; Hyperhidrosis; Eye movement disorder; Gait disturbance; Blood pressure abnormal; Heart rate abnormal; Urticaria"
+"zantac","Anaphylactic reaction"
+"zantac","Infusion related reaction"
+"zantac","Nystagmus; Inner ear disorder; Deafness; Dizziness; Balance disorder; Tinnitus; Impaired driving ability; Faeces discoloured; Blood pressure abnormal; Eye movement disorder"
+"zantac","Drug hypersensitivity"
+"zantac","Rheumatoid arthritis; Joint swelling; Pain in extremity; Arthropathy; Pain in extremity"
+"zantac","Memory impairment; Abdominal pain upper"
+"zantac","Neutropenia; Drug ineffective; Lymphopenia; Agranulocytosis"
+"zantac","Dry skin; Pain of skin; Erythema; Skin burning sensation; Skin warm; Off label use"
+"zantac","Urticaria"
+"zantac","Oedema peripheral; Injection site pain; Periorbital oedema; Eczema; Upper respiratory tract infection; Headache; Abdominal pain; Renal failure; Growth retardation; Nasal congestion; Cushingoid; Blood pressure increased; Pyrexia; Granuloma; Malaise"
+"zantac","Drug ineffective"
+"zantac","Flatulence"
+"zantac","Parkinson^s disease; Fatigue; Fatigue; Tremor; Activities of daily living impaired; Memory impairment; Memory impairment; Drug effect decreased"
+"zantac","Chest pain; Confusional state; Hypertension; Syncope"
+"zantac","Liver injury; Oedema"
+"zantac","Drug ineffective"
+"zantac","Off label use"
+"zantac","Haemorrhoids; Abdominal pain upper; Pain in extremity; Osteoarthritis; Pruritus; Hypersensitivity; Rash generalised; Calculus ureteric; Haematuria; Dysuria; Bone pain; Peptic ulcer; Calculus ureteric"
+"zantac","Osteoporosis; Stress fracture; Spinal compression fracture; Weight increased; Body height decreased; Mixed connective tissue disease; Intentional drug misuse"
+"zantac","Off label use"
+"zantac","Type 2 diabetes mellitus"
+"zantac","Off label use"
+"zantac","Breast cancer; Mastectomy; Wheezing; Cough; Oropharyngeal spasm; Adverse event; Breast calcifications"
+"zantac","Pancreatitis; Palmar-plantar erythrodysaesthesia syndrome"
+"zantac","Breast cyst; Drug effect decreased"
+"zantac","Malignant neoplasm progression; Pyrexia; Fatigue"
+"zantac","Eructation; Gastrooesophageal reflux disease"
+"zantac","Dyspnoea; Weight decreased; Malaise; Back pain; Influenza like illness; Chest discomfort; Influenza like illness; Eating disorder"
+"zantac","Eye irritation; Glossodynia; Lacrimation increased; Nasal congestion; Nasal discomfort"
+"zantac","Gastrointestinal haemorrhage; Multiple injuries; Myocardial infarction"
+"zantac","Dyspnoea; Suicidal ideation; Nausea; Muscle spasms; Multiple injuries; Depression; Gastrointestinal haemorrhage; Back pain; Asthenia; Headache; Menorrhagia; Ulcer haemorrhage; Vomiting"
+"zantac","Dyspnoea; Dyspnoea; Hypersensitivity; Hypersensitivity; Hypersensitivity"
+"zantac","Refractory anaemia with ringed sideroblasts; Pancytopenia; Reflux gastritis; Nausea; Vomiting; Multiple sclerosis relapse; Delirium; Diplopia; Vision blurred; Pain; Pyrexia; Chills; Carotid artery aneurysm; Somnolence; Feeling abnormal; Drug ineffective"
+"zantac","Hypersensitivity"
+"zantac","Madarosis; Drug ineffective"
+"zantac","Faeces discoloured; Off label use"
+"zantac","Epistaxis; Skin lesion; Weight decreased; Rash; Herpes zoster; Nasal congestion; Rash; Erythema; Herpes zoster; Proctitis fungal; Ageusia; Dry skin; Rash; Genital rash"
+"zantac","Dysuria; Haemorrhage urinary tract; Headache; Blood urine present; Urinary bladder haemorrhage; Renal haemorrhage; Haematuria; Dizziness; Haemorrhage; Renal neoplasm"
+"zantac","Drug screen positive"
+"zantac","Dysplasia; Polyp; Surgical failure; Spinal operation; Blood iron decreased"
+"zantac","Nephrotic syndrome; Influenza"
+"zantac","Breast cancer"
+"zantac","Injection site mass; Injection site erythema"
+"zantac","Clostridium difficile infection; Guillain-Barre syndrome"
+"zantac","Off label use; Off label use; Drug ineffective"
+"zantac","Immunoglobulins increased; No therapeutic response"
+"zantac","Nephrogenic systemic fibrosis"
+"zantac","Nasopharyngitis; Laboratory test abnormal; Weight decreased; Dyspnoea"
+"zantac","Death; Nodal rhythm; Cardio-respiratory arrest; Sepsis; Tracheitis; Packed red blood cell transfusion; Cerebral atrophy; Liver function test abnormal; Chronic respiratory failure; Oxygen saturation decreased; Hypotension; Culture positive; Blood culture positive; Culture urine positive; Diarrhoea; Blood pressure increased; Abdominal distension; Tachycardia"
+"zantac","Diarrhoea; Blood pressure increased"
+"zantac","Off label use"
+"zantac","Heart rate decreased; Respiratory tract congestion"
+"zantac","Lumbar vertebral fracture; Fall; Haemoglobin decreased; Nausea; Vomiting; Diarrhoea; Back pain"
+"zantac","Sinusitis; Feeling abnormal; Headache; Nausea"
+"zantac","Arthralgia; Application site rash; Off label use"
+"zantac","Urine analysis abnormal"
+"revlimid","Plasma cell myeloma; Respiratory disorder; Arrhythmia"
+"revlimid","White blood cell count increased; Gout; Fatigue; Red blood cell count decreased; Muscle spasms; Pruritus; White blood cell count decreased; Haemoglobin decreased; Peripheral swelling; Anaemia; Blood triglycerides decreased; Oedema peripheral; Blood cholesterol decreased; Blood count abnormal"
+"revlimid","Influenza; Pneumonia"
+"revlimid","Foot deformity"
+"revlimid","Death"
+"revlimid","Overdose; Dyspnoea; Lung infection"
+"revlimid","Death"
+"revlimid","Mental status changes"
+"revlimid","Respiratory disorder"
+"revlimid","Intestinal ischaemia; Enterocolitis bacterial; Dyspnoea; Protein total increased"
+"revlimid","Haemorrhage; Renal failure"
+"revlimid","Laboratory test abnormal"
+"revlimid","Non-Hodgkin^s lymphoma"
+"revlimid","Amnesia"
+"revlimid","Gallbladder disorder; Pneumonia"
+"revlimid","Myelodysplastic syndrome; Abasia; Chronic obstructive pulmonary disease; Diabetes mellitus; Pancytopenia; Asthenia"
+"revlimid","Aneurysm"
+"revlimid","Pulmonary embolism; Gastroenteritis; Dehydration"
+"revlimid","Cardio-respiratory arrest; Death; Septic shock; Respiratory failure"
+"revlimid","Death"
+"revlimid","Hepatorenal syndrome; Febrile neutropenia; Neutropenia; Lung adenocarcinoma; Toxicity to various agents; Plasma cell myeloma; Pneumonia; Sepsis; Gastrointestinal disorder; Hepatotoxicity; Deep vein thrombosis; Diarrhoea; Death; Amaurosis fugax; Atrial fibrillation; Syncope; Constipation; Infection"
+"revlimid","Glaucoma; Rash; Oedema peripheral; Lacrimation increased; Oedema peripheral; Pain; Fatigue; Herpes virus infection"
+"revlimid","Death"
+"revlimid","Memory impairment; Chronic lymphocytic leukaemia"
+"revlimid","Vaginal haemorrhage"
+"revlimid","Metastatic malignant melanoma"
+"revlimid","Death; Diarrhoea; Septic shock; Syncope; Pneumonia; Neutropenia; Thrombocytopenia; Fatigue; Plasma cell myeloma; Cough"
+"revlimid","Pulmonary oedema; Respiratory failure; Platelet count decreased; Pneumonia"
+"revlimid","Plasma cell myeloma; Pneumonia"
+"revlimid","Death"
+"revlimid","Death"
+"revlimid","Invasive ductal breast carcinoma"
+"revlimid","Asthenia; Mental status changes; Cerebrovascular accident"
+"revlimid","Neuropathy peripheral; Decreased appetite; Nausea; Neutropenia; Diarrhoea; Hyperglycaemia; Thrombocytopenia; Intestinal ischaemia; Mucosal inflammation; Vomiting; Anaemia; Infection; Deep vein thrombosis; Renal disorder; Disease progression; Liver disorder; Cerebrovascular accident; Depression; Rash"
+"revlimid","Death; Adverse event; Plasma cell myeloma"
+"revlimid","Death"
+"revlimid","Anaemia; Diarrhoea; Blood count abnormal; Drug ineffective"
+"revlimid","Eye infection"
+"revlimid","Fatigue; Urinary tract infection; Weight increased"
+"revlimid","Rectal adenocarcinoma"
+"revlimid","Death; Deep vein thrombosis; Leukopenia; Thrombocytopenia; Fatigue; Infection; No therapeutic response; Plasma cell myeloma recurrent; Neutropenia"
+"revlimid","Hypotension; Platelet count decreased; Malaise"
+"revlimid","Atrial thrombosis"
+"revlimid","Fracture"
+"revlimid","Road traffic accident; Sternal fracture; Loss of consciousness; Cough; Nasopharyngitis"
+"revlimid","Blood calcium increased; Blood potassium decreased; Anaemia"
+"revlimid","Blindness; Full blood count decreased; Hypoacusis"
+"revlimid","Upper respiratory tract inflammation"
+"revlimid","Headache; Diarrhoea; Night sweats; Dry skin; Deafness"
+"revlimid","Diabetes mellitus"
+"revlimid","Blood electrolytes abnormal; Blood potassium abnormal"
+"revlimid","Adrenal gland injury; Cardiac disorder; Anaemia; Hypotension; Renal failure; Laboratory test abnormal"
+"revlimid","Peripheral vascular disorder"
+"revlimid","Intra-abdominal haemorrhage; Infection; Plasma cell myeloma; Full blood count decreased; Pneumonia; Somnolence; Neuropathy peripheral; Constipation; Malaise"
+"revlimid","Nausea; Plasma cell myeloma; Disease recurrence"
+"revlimid","Acute myeloid leukaemia; Haemoglobin decreased"
+"revlimid","Musculoskeletal disorder; Plasma cell myeloma"
+"revlimid","Clavicle fracture; Fall; Pathological fracture; Drug intolerance; Encephalopathy"
+"revlimid","Yellow skin; Decreased appetite"
+"revlimid","Gait disturbance"
+"revlimid","Rectal adenocarcinoma; Drug interaction"
+"revlimid","Hernia"
+"revlimid","Spinal disorder"
+"revlimid","Gastric disorder"
+"revlimid","Heart rate irregular; Influenza"
+"revlimid","Confusional state"
+"revlimid","Refractory cytopenia with multilineage dysplasia"
+"revlimid","Foot fracture; Constipation"
+"revlimid","Mucoepidermoid carcinoma of salivary gland"
+"revlimid","Hodgkin^s disease"
+"revlimid","Open angle glaucoma"
+"revlimid","Adverse drug reaction; No therapeutic response"
+"revlimid","Cyst rupture"
+"revlimid","Superficial spreading melanoma stage unspecified"
+"revlimid","Haemarthrosis; Pancytopenia; Arthritis"
+"revlimid","Squamous cell carcinoma of the hypopharynx"
+"revlimid","Death"
+"revlimid","Bone marrow leukaemic cell infiltration"
+"revlimid","Myelodysplastic syndrome; Pancytopenia"
+"revlimid","Tongue injury; Loss of consciousness; Diarrhoea; Nausea"
+"revlimid","Sepsis; Renal disorder; Respiratory tract infection"
+"revlimid","Death; Pneumonia"
+"revlimid","Acute myeloid leukaemia"
+"revlimid","Death"
+"revlimid","Unevaluable event"
+"revlimid","Plasma cell myeloma"
+"revlimid","Malignant melanoma"
+"revlimid","Cardiac arrest"
+"revlimid","Sepsis"
+"revlimid","Plasma cell myeloma"
+"revlimid","Death"
+"revlimid","Death"
+"revlimid","Death"
+"revlimid","Asthenia; Plasma cell myeloma"
+"revlimid","Death"
+"revlimid","Atrial fibrillation; Pneumonia legionella; Multiple organ dysfunction syndrome"
+"revlimid","Cardiovascular disorder; Chest pain"
+"revlimid","Eating disorder; Haemoglobin decreased; Platelet count decreased"
+"revlimid","Febrile neutropenia; Plasma cell myeloma; Neutropenia; Pneumonia; Haemoglobin decreased; Sepsis"
+"revlimid","Unevaluable event"
+"dupixent","Bronchiectasis; Sinus operation; Restless legs syndrome; Condition aggravated; Pruritus; Asthma; Vitamin D deficiency; Iron deficiency; Hypersensitivity; Sleep apnoea syndrome; Condition aggravated"
+"dupixent","Autoimmune thyroiditis; Raynaud^s phenomenon; Hypothyroidism; Vitamin D deficiency; Condition aggravated; Therapeutic response unexpected; Pre-existing condition improved"
+"dupixent","Hypertension; Hepatic enzyme increased; Gastrointestinal disorder; Condition aggravated; Migraine; Constipation; Weight decreased; Depressed mood; Hyperhidrosis; Headache"
+"dupixent","Headache"
+"dupixent","Swelling face; Feeling hot; Eyelid oedema; Erythema of eyelid; Pruritus; Anaphylactic reaction; Burning sensation"
+"dupixent","Drug ineffective; Dermatitis"
+"dupixent","Product use issue; Weight decreased; Scab; Condition aggravated; Scratch; Peripheral swelling; Therapeutic response decreased"
+"dupixent","Eyelid disorder; Erythema; Feeling hot; Loss of consciousness; Injection site bruising; Injection site pain; Injection site reaction; Eyelid skin dryness; Injection site discolouration; Drug dose omission"
+"dupixent","Urticaria; Urticarial vasculitis; Pain; Pruritus generalised; Hypersensitivity; Injection site reaction; Rash erythematous"
+"dupixent","Loss of consciousness; Phobia"
+"dupixent","Drug ineffective"
+"dupixent","Discomfort; Swelling"
+"dupixent","Vision blurred"
+"dupixent","Drug hypersensitivity"
+"dupixent","Incorrect dose administered"
+"dupixent","Drug ineffective"
+"dupixent","Alopecia"
+"dupixent","Injection site rash"
+"dupixent","Drug ineffective"
+"dupixent","Eye pain; Lacrimation increased"
+"dupixent","Injection site mass"
+"dupixent","Hot flush"
+"dupixent","Fatigue"
+"dupixent","Staphylococcal infection"
+"dupixent","Eye pain; Rash"
+"dupixent","Overdose"
+"dupixent","Cough"
+"dupixent","Conjunctivitis"
+"dupixent","Influenza like illness"
+"dupixent","Drug ineffective"
+"dupixent","Skin swelling"
+"dupixent","Drug ineffective"
+"dupixent","Injection site rash; Injection site erythema; Injection site swelling; Injection site pruritus; Injection site pain; Injection site bruising"
+"dupixent","Eye swelling"
+"dupixent","Nail bed bleeding; Eye swelling; Ocular hyperaemia"
+"dupixent","Vision blurred"
+"dupixent","Thrombosis; Skin exfoliation; Pain in extremity"
+"dupixent","Rectal haemorrhage; Haemoglobin decreased; Blood albumin decreased; Red blood cell sedimentation rate increased; Conjunctivitis"
+"dupixent","Hypersensitivity; Paraesthesia; Alopecia"
+"dupixent","Nausea; Visual impairment; Fatigue"
+"dupixent","Eyelid margin crusting; Nail bed bleeding; Nail growth abnormal; Eyelid oedema"
+"dupixent","Fatigue; Keratitis"
+"dupixent","Drug ineffective; Eye pain"
+"dupixent","Injection site pain; Tremor; Dizziness; Loss of consciousness; Fatigue; Headache; Product use issue; Malaise"
+"dupixent","Conjunctivitis; Dry eye; Thrombosis; Transient ischaemic attack; Ocular hyperaemia; Pulmonary embolism; Drug dose omission"
+"dupixent","Off label use"
+"dupixent","Skin haemorrhage; Lacrimation increased; Product dose omission; Alopecia; Limb injury; Nasopharyngitis; Dry eye"
+"dupixent","Injection site mass"
+"dupixent","Injection site pain; Drug effect decreased; Injection site swelling; Rash; Injection site erythema; Pruritus"
+"dupixent","Off label use"
+"dupixent","Ocular hyperaemia; Eye pruritus; Conjunctivitis"
+"dupixent","Peripheral swelling; Injection site haemorrhage"
+"dupixent","Conjunctivitis; Erythema; Skin exfoliation"
+"dupixent","Therapeutic response unexpected"
+"dupixent","Lymphocytic leukaemia; Lymphadenopathy; Dermatitis psoriasiform; Dyspnoea; Eye pain; Vision blurred; Pruritus; Injection site pain; Injection site pruritus; Injection site warmth; Injection site rash; Dry eye; Eczema; Product use in unapproved indication"
+"dupixent","Off label use"
+"dupixent","Headache; Ocular discomfort"
+"dupixent","Product use issue"
+"dupixent","Injection site pain"
+"dupixent","Eczema; Condition aggravated"
+"dupixent","Injection site erythema"
+"dupixent","Conjunctivitis; Dry eye"
+"dupixent","Injection site urticaria; Dizziness"
+"dupixent","Rash papular"
+"dupixent","Injection site pain"
+"dupixent","Vomiting; Conjunctivitis"
+"dupixent","Product use issue"
+"dupixent","Pyrexia"
+"dupixent","Eye discharge; Hordeolum; Ocular hyperaemia; Pain; Product dose omission in error; Skin exfoliation"
+"dupixent","Underdose"
+"dupixent","Vision blurred; Skin ulcer; Erythema; Eczema; Product use issue"
+"dupixent","Conjunctivitis"
+"dupixent","Neck pain; Burning sensation"
+"dupixent","Pain of skin; Skin exfoliation"
+"dupixent","Conjunctivitis"
+"dupixent","Rash; Burning sensation; Skin exfoliation; Pruritus; Drug dose omission"
+"dupixent","Malaise; Unevaluable event"
+"dupixent","Urine abnormality"
+"dupixent","Dermatitis atopic; Multiple sclerosis; Eye infection"
+"dupixent","Drug ineffective; Product use issue"
+"dupixent","Serum sickness"
+"dupixent","Dermatitis; Injection site irritation; Eye irritation; Fatigue; Rash"
+"dupixent","Eczema; Rash"
+"dupixent","Pain in extremity"
+"dupixent","Unevaluable event"
+"dupixent","Rash; Erythema; Condition aggravated; Diarrhoea; Anxiety; Dyspnoea; Pruritus"
+"dupixent","Rash generalised; Urticaria"
+"dupixent","Eczema"
+"dupixent","Erythema; Underdose; Injection site pain; Eczema; Thermal burn; Burning sensation"
+"dupixent","Pruritus; Dry skin"
+"dupixent","Drug ineffective"
+"dupixent","Erythema; Seasonal allergy; Eye pruritus; Eye pain; Eye swelling; Dermatitis atopic; Conjunctivitis; Rhinorrhoea; Condition aggravated"
+"dupixent","Burning sensation; Arthralgia"
+"dupixent","Condition aggravated; Pruritus; Malaise; Eczema; Eyelid pain; Nasopharyngitis"
+"dupixent","Skin exfoliation"
+"dupixent","Injection site pruritus; Injection site erythema; Injection site reaction"
+"dupixent","Injection site mass"
+"dupixent","Fungal infection; Product use issue"
+"dupixent","Underdose"
+"dupixent","Drug ineffective"
+"aspirin","Drug hypersensitivity"
+"aspirin","Back pain"
+"aspirin","Cerebrovascular accident; Blood pressure increased; Pain"
+"aspirin","Oedema peripheral; Fluid retention"
+"aspirin","Hypertension; Dehydration; Night sweats; Panic attack; Hyperlipidaemia; Insomnia; Cold sweat; Bipolar disorder; Hyperhidrosis; Dysgeusia; Nausea"
+"aspirin","Transfusion"
+"aspirin","Influenza; Pneumonia"
+"aspirin","Rash; Dyspnoea"
+"aspirin","Haemoglobin decreased; Weight increased"
+"aspirin","Type 2 diabetes mellitus"
+"aspirin","Grand mal convulsion; Vomiting; Amnesia"
+"aspirin","Blood count abnormal; Platelet count decreased"
+"aspirin","Platelet count decreased; Blood count abnormal"
+"aspirin","Increased appetite; Incontinence; Off label use; Epistaxis; Blindness; Weight increased; Skin cancer; Nasopharyngitis; Dizziness; Dry eye; Wrong technique in product usage process; Pruritus; Increased tendency to bruise; Diarrhoea; Constipation"
+"aspirin","Pain; Dizziness; Headache"
+"aspirin","Malaise; Nausea; Haemoglobin decreased; Headache"
+"aspirin","Lower gastrointestinal haemorrhage"
+"aspirin","Rash"
+"aspirin","Rash; Headache"
+"aspirin","Oral mucosal erythema; Oral pain; Abdominal tenderness"
+"aspirin","Laboratory test abnormal; Contusion; Drug dose omission; Platelet count increased; Hypertension; Treatment noncompliance; Eye disorder; White blood cell count increased; Pain"
+"aspirin","Pneumonia; Anaemia"
+"aspirin","Nausea; Drug administration error"
+"aspirin","Flatulence"
+"aspirin","Skin discolouration; Rash"
+"aspirin","Thrombotic microangiopathy; Renal impairment; Hepatic failure; Mental status changes; Stem cell transplant; Graft versus host disease; Fatigue; Drug administration error"
+"aspirin","Spinal disorder; Dizziness; Feeling abnormal"
+"aspirin","Chest pain; Palpitations; Drug ineffective"
+"aspirin","Drug ineffective"
+"aspirin","Neuropathy peripheral; Muscle spasms; Myopathy; Sleep disorder; Blood glucose increased"
+"aspirin","Cerebrovascular accident; Weight increased; Withdrawal syndrome"
+"aspirin","Depression; Disease progression; Psychotic disorder"
+"aspirin","Diarrhoea; Fatigue; Furuncle"
+"aspirin","Nausea; Chills; Abdominal pain; Headache"
+"aspirin","Cardiac stress test abnormal; Arteriogram coronary abnormal; Weight decreased"
+"aspirin","Haemoglobin decreased; Alopecia; Palpitations; Chills; Blood count abnormal"
+"aspirin","Nephrolithiasis; Kidney infection; Heart rate increased; Dyspnoea; Fatigue; Dizziness"
+"aspirin","Incontinence; Urinary tract infection"
+"aspirin","White blood cell count increased; Platelet count decreased; Contusion"
+"aspirin","Diarrhoea"
+"aspirin","Dyspepsia; Contusion"
+"aspirin","Hypertension; Increased appetite; Weight increased; Haemoglobin decreased"
+"aspirin","Arteritis"
+"aspirin","Hip fracture; Visual impairment; Overdose; Rehabilitation therapy; Gait disturbance; Mobility decreased; Dizziness; Fall"
+"aspirin","Myocardial infarction; Coronary arterial stent insertion; Drug administration error"
+"aspirin","Type 2 diabetes mellitus"
+"aspirin","Hyperkalaemia; Pancreatitis acute; Type 2 diabetes mellitus"
+"aspirin","Drug hypersensitivity"
+"aspirin","Respiratory failure; Myocardial infarction; Cardiac failure; Memory impairment; Pain in extremity; Diarrhoea"
+"aspirin","Asthenia; Dyspnoea; Anaemia; Drug administration error"
+"aspirin","Flatulence; Decreased appetite; Nausea; Constipation"
+"aspirin","Nasal congestion; Constipation; Spondylitis; Weight increased"
+"aspirin","Adverse drug reaction"
+"aspirin","Joint swelling; Pain in extremity; Anxiety; Disturbance in attention; Fatigue; Insomnia"
+"aspirin","Cardio-respiratory arrest; Death; Septic shock; Respiratory failure"
+"aspirin","Gallbladder disorder; Oropharyngeal pain; Sinusitis"
+"aspirin","Adverse event; Influenza like illness"
+"aspirin","Intentional underdose; Wrong technique in drug usage process; Drug withdrawal syndrome; Insomnia; Decreased appetite; Loss of consciousness; Dehydration; Blood glucose abnormal"
+"aspirin","Dyspnoea; Asthma; Chest pain; Chest discomfort; Wheezing; Cough; Sinusitis"
+"aspirin","Hyperhidrosis; Pain; Insomnia; Flushing"
+"aspirin","Headache; Nasopharyngitis"
+"aspirin","Muscle spasms; Weight decreased; Influenza; Gait disturbance; Cerebellar ataxia; Hypersensitivity; Headache; Insomnia; Overdose"
+"aspirin","Genital rash"
+"aspirin","Herpes zoster"
+"aspirin","Loss of consciousness; Iron deficiency anaemia; Syncope"
+"aspirin","Cardiac arrest; Acute myocardial infarction; Left atrial dilatation; Hyponatraemia; Hypertension; Coronary artery disease; Ischaemic cardiomyopathy; Fatigue; Ventricular tachycardia; Ventricular fibrillation; Heart rate increased; Cardiac failure acute; Atrial fibrillation; Hypogonadism; Respiratory failure; Ejection fraction decreased; Cardiac failure congestive; Sinus bradycardia; Coronary artery occlusion; Sleep apnoea syndrome"
+"aspirin","Atypical pneumonia; Hypoacusis"
+"aspirin","Glaucoma; Rash; Oedema peripheral; Lacrimation increased; Oedema peripheral; Pain; Fatigue; Herpes virus infection"
+"aspirin","Death; Respiratory distress; Anaemia; Haematochezia"
+"aspirin","Blindness; Deafness; Loss of consciousness; Contusion; Glaucoma; Pruritus; Muscle disorder; Confusional state; Skin lesion; Pain; Oral disorder; Delusion; Aggression"
+"aspirin","Cardiac arrest; Blood urine present; Unresponsive to stimuli; Blood pressure decreased; Haemoglobin decreased; Abdominal pain"
+"aspirin","Overdose; Drug ineffective; Product quality issue; Product quality issue"
+"aspirin","Memory impairment; Chronic lymphocytic leukaemia"
+"aspirin","Infection; Neutropenia; White blood cell count decreased"
+"aspirin","Dizziness; Fatigue; Rash"
+"aspirin","Death"
+"aspirin","Pulmonary thrombosis; Thrombosis"
+"aspirin","Incorrect dose administered; White blood cell count decreased; Rash"
+"aspirin","Off label use; Atrial fibrillation; Metastases to bone"
+"aspirin","Hypersensitivity; Angioedema; Pruritus"
+"aspirin","Hearing impaired; Epistaxis; Hypertension; Computerised tomogram abnormal; Inappropriate schedule of drug administration; Rash; Hip fracture; Haemorrhagic diathesis; Rash; Dry skin"
+"aspirin","Bacterial infection; Gastrointestinal disorder; Diarrhoea"
+"aspirin","Increased tendency to bruise"
+"aspirin","Gastrointestinal haemorrhage; Drug interaction"
+"aspirin","Weight decreased; Transaminases increased; Malaise"
+"aspirin","Haemorrhage; Drug interaction"
+"aspirin","Gastrointestinal haemorrhage; Drug interaction"
+"aspirin","Type 2 diabetes mellitus"
+"aspirin","Type 2 diabetes mellitus"
+"aspirin","Gastrointestinal haemorrhage; Drug interaction"
+"aspirin","Chillblains; Pain in extremity; Oedema peripheral"
+"aspirin","Gastrointestinal haemorrhage; Drug interaction; Diverticulum intestinal haemorrhagic; Rectal haemorrhage; Melaena"
+"aspirin","Dyspnoea; Eye swelling; Dizziness; Palpitations"
+"aspirin","Type 2 diabetes mellitus"
+"aspirin","Small fibre neuropathy"
+"aspirin","Renal failure acute; Retroperitoneal haemorrhage"
+"aspirin","Haemorrhage; Drug interaction"
+"aspirin","Ulcer haemorrhage; Drug interaction"
+"aspirin","Gastrointestinal haemorrhage; Drug interaction; Melaena"
+"aspirin","Type 2 diabetes mellitus"
