@@ -1,0 +1,12 @@
+# CSVs einlesen
+synonyms <- read.csv("02-data/gpt_synonyms_top50.csv")
+sideeffects <- read.csv("02-data/sideeffects_top50.csv")
+
+# Zusammenführen (inner join auf drug oder medicinal product)
+combined_df <- merge(synonyms, sideeffects, by = "drug", all.x = TRUE)
+
+# Speichern
+write.csv(combined_df, "02-data/combined_synonyms_sideeffects.csv", row.names = FALSE)
+
+# Vorschau
+head(combined_df)
