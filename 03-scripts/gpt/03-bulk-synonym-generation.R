@@ -28,3 +28,31 @@ names(top_meds) <- c("medicinal_product", "count")
 
 # Vorschau
 head(top_meds)
+
+# ========== Top 50 Medikamente GPT-Synonyme ==========
+
+# Top 50 laden
+top_meds <- fromJSON("01-data_import/top50_medicines_raw.json")$results
+top_meds <- as.data.frame(top_meds)
+names(top_meds) <- c("medicinal_product", "count")
+
+# Medikamentennamen extrahieren
+top_drugs <- tolower(top_meds$medicinal_product)
+
+# GPT-Synonyme abrufen mit Rate-Limit
+all_synonyms <- lapply(top_drugs, function(drug) {
+  Sys.sleep(1.2)  # Rate Limit beachten
+  tryCatch({
+    get_gpt_synonyms(drug)
+  }, error = function(e) {
+    message("Fehler bei ", drug, ": ", e$message)
+    return(data.frame(drug = drug, synonym = NA))
+  })
+})
+
+# Zusammenfassen
+synonyms_df <- do.call(rbind, all_synonyms)
+
+# Speichern
+write.csv(synonyms_df, "02-data/gpt_synonyms_top50.csv", row.names = FALSE)
+
