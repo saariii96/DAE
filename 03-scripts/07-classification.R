@@ -102,5 +102,114 @@ ggplot(top10_accuracy, aes(x = reorder(side_effect, accuracy), y = accuracy)) +
        x = "Nebenwirkung", y = "Accuracy (%)")
 
 
+# ---------------------------------------
+# Wichtigste Medikamente pro Nebenwirkung
+# ---------------------------------------
+
+library(ggplot2)
+
+for (side_effect in names(top_accuracies)) {
+  model_info <- results[[side_effect]]
+  
+  if (is.null(model_info$importance)) next
+  
+  imp_df <- as.data.frame(model_info$importance)
+  imp_df$medikament <- rownames(imp_df)
+  
+  top_features <- imp_df %>%
+    arrange(desc(MeanDecreaseGini)) %>%
+    slice_head(n = 10)
+  
+  p <- ggplot(top_features, aes(x = reorder(medikament, MeanDecreaseGini), y = MeanDecreaseGini)) +
+    geom_col(fill = "tomato") +
+    coord_flip() +
+    labs(
+      title = paste("Top 10 sideeffects of:", side_effect),
+      x = "sideeffects",
+      y = "Feature Importance (MeanDecreaseGini)"
+    )
+  
+  print(p)  # damit der Plot angezeigt wird
+}
 
 
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+#Welche Nebenwirkungen sind am stärksten mit einer bestimmten Nebenwirkung assoziiert?
+  
+  library(tidyverse)
+library(randomForest)
+library(caret)
+
+# 1. Daten einlesen
+df_raw <- read_csv("02-data/combined_synonyms_sideeffects_top100.csv")
+
+# 2. Aufsplitten
+df_clean <- df_raw %>%
+  filter(!is.na(side_effects)) %>%
+  separate_rows(side_effects, sep = ";\\s*") %>%
+  rename(side_effect = side_effects) %>%
+  mutate(value = 1)
+
+# 3. Matrix: Zeilen = Nebenwirkungen, Spalten = Medikamente
+df_matrix_med <- df_clean %>%
+  distinct(side_effect, synonym, .keep_all = TRUE) %>%
+  pivot_wider(
+    id_cols = side_effect,
+    names_from = synonym,
+    values_from = value,
+    values_fill = 0
+  )
+
+# 4. In Dataframe konvertieren
+df <- as.data.frame(df_matrix_med)
+rownames(df) <- df$side_effect
+df$side_effect <- NULL
+
+results <- list()
+set.seed(42)
+
+for (target_var in rownames(df)) {
+  target <- as.numeric(df[target_var, ])
+  if (length(unique(target)) < 2) next
+  
+  df_model <- t(df)  # Transponieren für Modelltraining
+  df_model <- as.data.frame(df_model)
+  target <- as.factor(target)
+  
+  train_idx <- createDataPartition(target, p = 0.7, list = FALSE)
+  train_data <- df_model[train_idx, ]
+  test_data <- df_model[-train_idx, ]
+  train_target <- target[train_idx]
+  test_target <- target[-train_idx]
+  
+  model <- randomForest(train_data, train_target, ntree = 100)
+  acc <- mean(predict(model, test_data) == test_target)
+  
+  results[[target_var]] <- list(
+    model = model,
+    accuracy = acc,
+    importance = importance(model)
+  )
+  
+  message("✅ ", target_var, " – Accuracy: ", round(acc * 100, 1), "%")
+}
+
+library(ggplot2)
+
+var <- "Hypertension"
+imp_df <- as.data.frame(results[[var]]$importance)
+imp_df$medikament <- rownames(imp_df)
+
+top_features <- imp_df %>%
+  arrange(desc(MeanDecreaseGini)) %>%
+  slice_head(n = 10)
+
+ggplot(top_features, aes(x = reorder(medikament, MeanDecreaseGini), y = MeanDecreaseGini)) +
+  geom_col(fill = "tomato") +
+  coord_flip() +
+  labs(
+    title = paste("Top 10 Medikamente für Vorhersage von:", var),
+    x = "Medikament",
+    y = "Feature Importance (MeanDecreaseGini)"
+  )
