@@ -1,0 +1,1215 @@
+"side_effects","n"
+"Fatigue",318
+"Drug ineffective",314
+"Pain",296
+"Diarrhoea",280
+"Dizziness",272
+"Headache",254
+"Nausea",254
+"Dyspnoea",237
+"Abdominal pain",233
+"Malaise",229
+"Death",212
+"Fall",203
+"Off label use",200
+"Arthralgia",190
+"Rash",184
+"Back pain",181
+"Pain in extremity",180
+"Pyrexia",178
+"Haemoglobin decreased",176
+"Injection site pain",169
+"Asthenia",168
+"Weight decreased",166
+"Pruritus",160
+"Pneumonia",158
+"Cough",147
+"Vomiting",135
+"Weight increased",128
+"Psoriasis",127
+"Hypersensitivity",121
+"Myocardial infarction",112
+"Chest pain",111
+"Insomnia",109
+"Drug dose omission",108
+"Loss of consciousness",98
+"Anaemia",97
+"Gastrooesophageal reflux disease",93
+"Decreased appetite",91
+"Drug interaction",91
+"Incorrect dose administered",91
+"Infection",91
+"Abdominal pain upper",89
+"Hypertension",87
+"Depression",86
+"Crohn^s disease",84
+"Platelet count decreased",83
+"Constipation",82
+"Influenza",81
+"Visual impairment",81
+"Gait disturbance",80
+"Injection site erythema",80
+"Alopecia",79
+"Muscle spasms",79
+"Oedema peripheral",79
+"Contusion",78
+"Hypoaesthesia",78
+"Type 2 diabetes mellitus",78
+"Erythema",77
+"Gastrointestinal haemorrhage",76
+"Nasopharyngitis",73
+"Urinary tract infection",72
+"Drug hypersensitivity",71
+"Condition aggravated",70
+"Musculoskeletal pain",70
+"Syncope",67
+"Vision blurred",67
+"Cerebrovascular accident",65
+"Feeling abnormal",64
+"Haemorrhage",63
+"Rectal haemorrhage",63
+"Wrong technique in drug usage process",63
+"Local swelling",62
+"Mobility decreased",62
+"Paraesthesia",62
+"Palpitations",61
+"Rheumatoid arthritis",59
+"Hyperhidrosis",58
+"Joint swelling",58
+"Dehydration",57
+"Sinusitis",57
+"Abdominal distension",56
+"Arthropathy",56
+"Dyspepsia",55
+"Respiratory failure",54
+"Somnolence",54
+"Oropharyngeal pain",52
+"Blood pressure increased",51
+"Atrial fibrillation",50
+"Injection site reaction",50
+"Memory impairment",50
+"Tremor",50
+"Device issue",49
+"Unevaluable event",49
+"Upper respiratory tract infection",49
+"Anxiety",48
+"Myalgia",48
+"Sepsis",48
+"Dry skin",47
+"Haematochezia",47
+"Drug effect decreased",46
+"Herpes zoster",46
+"Abdominal discomfort",44
+"Balance disorder",44
+"Nasal congestion",44
+"Heart rate increased",43
+"Product quality issue",43
+"Chills",42
+"Drug administration error",42
+"Intestinal stenosis",42
+"Surgery",41
+"White blood cell count decreased",41
+"White blood cell count increased",41
+"Epistaxis",40
+"Injection site pruritus",40
+"Plasma cell myeloma",40
+"Blood count abnormal",39
+"Deep vein thrombosis",39
+"Inappropriate schedule of drug administration",39
+"Neuropathy peripheral",39
+"Chest discomfort",38
+"Conjunctivitis",38
+"Intentional product misuse",38
+"Product use issue",38
+"Skin lesion",38
+"Cardiac arrest",37
+"Thrombocytopenia",37
+"Urticaria",36
+"Depressed mood",35
+"Feeling hot",35
+"Fistula",35
+"Hypophagia",35
+"Increased tendency to bruise",35
+"Lacrimation increased",35
+"Muscular weakness",35
+"Osteoarthritis",35
+"Pollakiuria",35
+"Inflammation",34
+"Renal failure",34
+"Adverse event",33
+"Burning sensation",33
+"Injection site haemorrhage",33
+"Lower respiratory tract infection",33
+"Lymphadenopathy",33
+"Musculoskeletal stiffness",33
+"Thrombosis",33
+"Diabetes mellitus",32
+"Dysphagia",32
+"Flatulence",32
+"Hip fracture",32
+"Overdose",32
+"Rash generalised",32
+"Suicidal ideation",32
+"Abnormal dreams",31
+"Wheezing",31
+"Withdrawal syndrome",31
+"Abasia",30
+"Cardiac failure",30
+"Eczema",30
+"Injection site rash",30
+"Injection site swelling",30
+"Intestinal obstruction",30
+"Peripheral swelling",30
+"Red blood cell count decreased",30
+"Blindness",29
+"Dysuria",29
+"General physical health deterioration",29
+"Hepatic failure",29
+"Neutropenia",29
+"Renal failure acute",29
+"Gastrointestinal inflammation",28
+"Impaired healing",28
+"Injection site mass",28
+"Small intestinal obstruction",28
+"Arthritis",27
+"Aspiration",27
+"Respiratory tract congestion",27
+"Amnesia",26
+"Blood potassium decreased",26
+"Confusional state",26
+"Febrile neutropenia",26
+"Haematuria",26
+"Neck pain",26
+"Night sweats",26
+"Bronchitis",25
+"Disturbance in attention",25
+"Drug effect incomplete",25
+"Hypotension",25
+"Influenza like illness",25
+"Meniscus injury",25
+"Productive cough",25
+"Skin discolouration",25
+"Anaphylactic reaction",24
+"Blood creatinine increased",24
+"Cardiac failure congestive",24
+"Eye irritation",24
+"Eye pruritus",24
+"Flushing",24
+"Foot deformity",24
+"Hyperkalaemia",24
+"Liver injury",24
+"Pancreatitis",24
+"Road traffic accident",24
+"Asthma",23
+"Cellulitis",23
+"Deafness",23
+"Emotional distress",23
+"Lethargy",23
+"Pulmonary embolism",23
+"Swelling",23
+"Tooth disorder",23
+"Angioedema",22
+"Bedridden",22
+"Dental caries",22
+"Dry eye",22
+"Glaucoma",22
+"Inguinal hernia",22
+"Intervertebral disc protrusion",22
+"Nerve compression",22
+"Onychomadesis",22
+"Pustular psoriasis",22
+"Skin exfoliation",22
+"Spinal fracture",22
+"Therapeutic response unexpected",22
+"Cardiac disorder",21
+"Cardio-respiratory arrest",21
+"Colitis ulcerative",21
+"Enteritis",21
+"Gastritis",21
+"Haematocrit decreased",21
+"Hearing impaired",21
+"Hernia",21
+"Hyponatraemia",21
+"Increased appetite",21
+"Oedema",21
+"Cholecystectomy",20
+"Cognitive disorder",20
+"Convulsion",20
+"Dysgeusia",20
+"Fluid retention",20
+"Foot fracture",20
+"Furuncle",20
+"Gastrointestinal disorder",20
+"Haematoma",20
+"Joint dislocation",20
+"Ocular hyperaemia",20
+"Respiratory distress",20
+"Stomatitis",20
+"Visual field defect",20
+"Blood urine present",19
+"Breast cancer",19
+"Ear infection",19
+"Eye swelling",19
+"Gallbladder disorder",19
+"Knee arthroplasty",19
+"Psoriatic arthropathy",19
+"Skin haemorrhage",19
+"Speech disorder",19
+"Tinnitus",19
+"Wrong technique in product usage process",19
+"Activities of daily living impaired",18
+"Application site rash",18
+"Basal cell carcinoma",18
+"Cystitis",18
+"Diverticulitis",18
+"Eye movement disorder",18
+"Gastric disorder",18
+"Head injury",18
+"Hepatitis",18
+"Injection site warmth",18
+"Malnutrition",18
+"Nephrogenic systemic fibrosis",18
+"Pleural effusion",18
+"Rib fracture",18
+"Rotator cuff syndrome",18
+"Tenderness",18
+"Bacterial infection",17
+"Eye infection",17
+"Haemorrhoids",17
+"Injury",17
+"Laboratory test abnormal",17
+"Nephrolithiasis",17
+"Oral herpes",17
+"Skin disorder",17
+"Sleep disorder",17
+"Thrombophlebitis superficial",17
+"Ulcer haemorrhage",17
+"Agranulocytosis",16
+"Presyncope",16
+"Swelling face",16
+"Transient ischaemic attack",16
+"Adverse drug reaction",15
+"Ankle fracture",15
+"Aspartate aminotransferase increased",15
+"C-reactive protein increased",15
+"Cataract",15
+"Cerebral haemorrhage",15
+"Cervical vertebral fracture",15
+"Cholecystitis",15
+"Disease progression",15
+"Emotional disorder",15
+"Fear",15
+"Laceration",15
+"Localised infection",15
+"Lung disorder",15
+"Migraine",15
+"Pain of skin",15
+"Sciatica",15
+"Tuberculosis",15
+"Acute myocardial infarction",14
+"Adhesion",14
+"Apnoea",14
+"Atrial septal defect",14
+"Blood glucose increased",14
+"Chondropathy",14
+"Chromaturia",14
+"Cold sweat",14
+"Disorientation",14
+"Dry mouth",14
+"Exposure during breast feeding",14
+"Eye disorder",14
+"Face oedema",14
+"Female genital tract fistula",14
+"Fistula discharge",14
+"Foetal exposure during pregnancy",14
+"Haemorrhagic diathesis",14
+"Hypotonia",14
+"Ileal stenosis",14
+"Ileus",14
+"Incontinence",14
+"Intestinal polyp",14
+"Ischaemic stroke",14
+"Large intestinal stenosis",14
+"Medical device complication",14
+"Melaena",14
+"Musculoskeletal disorder",14
+"Myopathy",14
+"Neoplasm malignant",14
+"Nerve injury",14
+"Otitis media",14
+"Pancytopenia",14
+"Petechiae",14
+"Platelet count increased",14
+"Postictal state",14
+"Retching",14
+"Rheumatoid lung",14
+"Small intestinal stenosis",14
+"Spinal pain",14
+"Squamous cell carcinoma",14
+"Staphylococcal sepsis",14
+"Testicular pain",14
+"Throat tightness",14
+"Thrombocytosis",14
+"Transfusion",14
+"Tuberculin test positive",14
+"Underdose",14
+"Unresponsive to stimuli",14
+"Ventricular fibrillation",14
+"Aggression",13
+"Angina pectoris",13
+"Blood alkaline phosphatase increased",13
+"Blood cholesterol increased",13
+"Clostridium difficile infection",13
+"Coronary artery disease",13
+"Cytomegalovirus infection",13
+"Delirium",13
+"Dermatitis",13
+"Diabetic neuropathy",13
+"Exposure during pregnancy",13
+"Gastric cancer",13
+"Gastric haemorrhage",13
+"Genital rash",13
+"Granuloma",13
+"Haematemesis",13
+"Herpes virus infection",13
+"Impaired driving ability",13
+"Interstitial lung disease",13
+"Lip swelling",13
+"Liver function test abnormal",13
+"Movement disorder",13
+"Nephrotic syndrome",13
+"Nervousness",13
+"Oral pain",13
+"Osteoporosis",13
+"Paraesthesia oral",13
+"Rash macular",13
+"Red blood cell sedimentation rate increased",13
+"Renal impairment",13
+"Renal neoplasm",13
+"Sensation of foreign body",13
+"Skin ulcer",13
+"Spinal disorder",13
+"Subileus",13
+"Surgical failure",13
+"Visual acuity reduced",13
+"Anhedonia",12
+"Blood pressure abnormal",12
+"Bone pain",12
+"Bronchiolitis",12
+"Calculus ureteric",12
+"Coma",12
+"Dermatitis atopic",12
+"Drug screen positive",12
+"Electrocardiogram QT prolonged",12
+"Eye pain",12
+"Faeces discoloured",12
+"Hallucination",12
+"Hypoglycaemia",12
+"Infusion related reaction",12
+"Injection site urticaria",12
+"Intentional product use issue",12
+"Joint range of motion decreased",12
+"Limb discomfort",12
+"Micturition urgency",12
+"Multiple injuries",12
+"No therapeutic response",12
+"Nodule",12
+"Palmar-plantar erythrodysaesthesia syndrome",12
+"Pneumonia aspiration",12
+"Product substitution issue",12
+"Scab",12
+"Skin fissures",12
+"Toxicity to various agents",12
+"Upper gastrointestinal haemorrhage",12
+"Urine output decreased",12
+"Alanine aminotransferase increased",11
+"Aortic aneurysm",11
+"Aphasia",11
+"Application site vesicles",11
+"Blood creatine phosphokinase increased",11
+"Blood pressure decreased",11
+"Breast pain",11
+"Cholelithiasis",11
+"Colon cancer",11
+"Computerised tomogram abnormal",11
+"Coronary artery occlusion",11
+"Cyst",11
+"Dysarthria",11
+"Full blood count decreased",11
+"Incision site infection",11
+"Injection site induration",11
+"Intestinal perforation",11
+"Kidney infection",11
+"Ligament rupture",11
+"Lung infection",11
+"Mental status changes",11
+"Optic neuritis",11
+"Pharyngitis",11
+"Pneumothorax",11
+"Post procedural complication",11
+"Procedural pain",11
+"Purulent discharge",11
+"Renal cancer",11
+"Renal disorder",11
+"Respiratory arrest",11
+"Respiratory tract infection",11
+"Septic shock",11
+"Sinus disorder",11
+"Skin cancer",11
+"Throat irritation",11
+"Thyroid neoplasm",11
+"Tonsillitis",11
+"Tooth loss",11
+"Urinary incontinence",11
+"Uterine leiomyoma",11
+"Viral infection",11
+"Wound",11
+"Wound infection",11
+"Acute myeloid leukaemia",10
+"Agitation",10
+"Application site erythema",10
+"Application site pruritus",10
+"Blister",10
+"Chronic obstructive pulmonary disease",10
+"Diplopia",10
+"Haemoptysis",10
+"Hiatus hernia",10
+"Investigation",10
+"Joint stiffness",10
+"Limb injury",10
+"Lung neoplasm malignant",10
+"Peptic ulcer",10
+"Polyp",10
+"Premature baby",10
+"Prostate cancer",10
+"Pulmonary oedema",10
+"Rhinorrhoea",10
+"Secretion discharge",10
+"Spinal operation",10
+"Staphylococcal osteomyelitis",10
+"Urinary bladder haemorrhage",10
+"Blood electrolytes abnormal",9
+"Bronchiectasis",9
+"Cardiac murmur",9
+"Chronic lymphocytic leukaemia",9
+"Colon cancer metastatic",9
+"Discomfort",9
+"Generalised erythema",9
+"Hepatotoxicity",9
+"Hot flush",9
+"Humerus fracture",9
+"Hypoacusis",9
+"Joint injury",9
+"Pneumonia influenzal",9
+"Scratch",9
+"Seizure",9
+"Sleep apnoea syndrome",9
+"Therapeutic response decreased",9
+"Vaginal haemorrhage",9
+"Ventricular tachycardia",9
+"Wrist fracture",9
+"Bradycardia",8
+"Cerebral atrophy",8
+"Decreased immune responsiveness",8
+"Drug intolerance",8
+"Ear pain",8
+"Eating disorder",8
+"Eye discharge",8
+"Heart rate irregular",8
+"Hip arthroplasty",8
+"Injection site bruising",8
+"Injection site infection",8
+"Leukaemia",8
+"Mouth ulceration",8
+"Multiple sclerosis",8
+"Musculoskeletal chest pain",8
+"Myelodysplastic syndrome",8
+"Nasal discomfort",8
+"Osteomyelitis",8
+"Pain in jaw",8
+"Pulmonary mass",8
+"Rash erythematous",8
+"Rash pruritic",8
+"Renal failure chronic",8
+"Skin warm",8
+"Spinal compression fracture",8
+"Synovitis",8
+"Thrombophlebitis",8
+"Upper respiratory tract inflammation",8
+"Abdominal adhesions",7
+"Abdominal infection",7
+"Abdominal pain lower",7
+"Abdominal tenderness",7
+"Abscess intestinal",7
+"Abscess neck",7
+"Accident",7
+"Acute respiratory distress syndrome",7
+"Adenocarcinoma of colon",7
+"Allergic oedema",7
+"Alopecia areata",7
+"Anal dilation procedure",7
+"Anal fistula",7
+"Anal skin tags",7
+"Anal stenosis",7
+"Aortic stenosis",7
+"Aphonia",7
+"Appendix disorder",7
+"Application site pain",7
+"Arteriogram coronary abnormal",7
+"Arteritis",7
+"Arthropod bite",7
+"Atypical pneumonia",7
+"Autoimmune hepatitis",7
+"Axillary mass",7
+"Back crushing",7
+"Benign prostatic hyperplasia",7
+"Biliary tract disorder",7
+"Bipolar disorder",7
+"Bladder discomfort",7
+"Bladder prolapse",7
+"Blast cell count increased",7
+"Blindness transient",7
+"Blood bilirubin increased",7
+"Blood calcium decreased",7
+"Blood disorder",7
+"Blood glucose abnormal",7
+"Blood magnesium decreased",7
+"Blood pressure inadequately controlled",7
+"Blood pressure systolic increased",7
+"Blood uric acid increased",7
+"Bone erosion",7
+"Bone marrow disorder",7
+"Bradyphrenia",7
+"Brain injury",7
+"Brain neoplasm",7
+"Brain neoplasm benign",7
+"Brain stem haemorrhage",7
+"Bronchial carcinoma",7
+"Bronchopneumonia",7
+"Calculus urinary",7
+"Cardiac failure acute",7
+"Cardiac stress test abnormal",7
+"Cardiomegaly",7
+"Catheter site haematoma",7
+"Catheter site infection",7
+"Catheter site inflammation",7
+"Catheter site pain",7
+"Central nervous system lymphoma",7
+"Cephalo-pelvic disproportion",7
+"Cerebellar ataxia",7
+"Cerebral ischaemia",7
+"Ceruloplasmin increased",7
+"Chillblains",7
+"Cholestasis",7
+"Cholestatic liver injury",7
+"Clostridium difficile colitis",7
+"Colon cancer stage I",7
+"Colon neoplasm",7
+"Colour blindness",7
+"Concomitant disease aggravated",7
+"Congenital hand malformation",7
+"Consciousness fluctuating",7
+"Coronary arterial stent insertion",7
+"Decreased activity",7
+"Delusion",7
+"Dementia Alzheimer^s type",7
+"Dermal cyst",7
+"Dermatitis allergic",7
+"Dermatitis exfoliative",7
+"Device dislocation",7
+"Diabetes mellitus inadequate control",7
+"Diabetic vascular disorder",7
+"Diarrhoea haemorrhagic",7
+"Diverticulum intestinal haemorrhagic",7
+"Drug withdrawal syndrome",7
+"Dysphemia",7
+"Dyspnoea exertional",7
+"Ejection fraction decreased",7
+"Endometriosis",7
+"Ephelides",7
+"Epididymitis",7
+"Erythrodermic psoriasis",7
+"Erythropoiesis abnormal",7
+"Essential thrombocythaemia",7
+"Euphoric mood",7
+"Exposure to contaminated water",7
+"Face injury",7
+"Faecal incontinence",7
+"Failure to thrive",7
+"Feeding disorder",7
+"Fluid intake reduced",7
+"Frequent bowel movements",7
+"Gallbladder operation",7
+"Gastric cancer stage IV",7
+"Gastric infection",7
+"Gastric polyps",7
+"Gastrointestinal dilation procedure",7
+"Gastrointestinal erosion",7
+"Gastrointestinal stoma complication",7
+"Generalised tonic-clonic seizure",7
+"Giant cell tumour of tendon sheath",7
+"Glucose tolerance impaired",7
+"Goitre",7
+"Gonorrhoea",7
+"Graft versus host disease",7
+"Grand mal convulsion",7
+"Groin pain",7
+"Haematospermia",7
+"Haemorrhage intracranial",7
+"Hand fracture",7
+"Heart valve incompetence",7
+"Hemiplegia",7
+"Hepatic cancer stage IV",7
+"Hepatic cirrhosis",7
+"Hepatic function abnormal",7
+"Hepatic lesion",7
+"Hepatic steatosis",7
+"High density lipoprotein increased",7
+"Human herpesvirus 6 infection",7
+"Hyperlipidaemia",7
+"Hypersensitivity vasculitis",7
+"Hypoaesthesia oral",7
+"Hypogonadism",7
+"Ileectomy",7
+"Illness",7
+"Immunodeficiency",7
+"Impaired gastric emptying",7
+"Impaired work ability",7
+"Incision site pain",7
+"Incorrect drug administration rate",7
+"Infarction",7
+"Infective exacerbation of chronic obstructive airways disease",7
+"Ingrowing nail",7
+"Intentional underdose",7
+"International normalised ratio decreased",7
+"Intervertebral disc degeneration",7
+"Intestinal adenocarcinoma",7
+"Intestinal fibrosis",7
+"Intestinal fistula",7
+"Intestinal mucosal hypertrophy",7
+"Intestinal prolapse",7
+"Intestinal resection",7
+"Intra-abdominal haematoma",7
+"Intussusception",7
+"Iron deficiency anaemia",7
+"Irritable bowel syndrome",7
+"Ischaemic cardiomyopathy",7
+"Jaundice",7
+"Joint arthroplasty",7
+"Kounis syndrome",7
+"Learning disorder",7
+"Left atrial dilatation",7
+"Left ventricular failure",7
+"Ligament sprain",7
+"Lipase increased",7
+"Localised intraabdominal fluid collection",7
+"Lower extremity mass",7
+"Lower gastrointestinal haemorrhage",7
+"Lower respiratory tract infection bacterial",7
+"Lymphoma",7
+"Mastitis",7
+"Menometrorrhagia",7
+"Menstrual disorder",7
+"Menstruation irregular",7
+"Mesenteric abscess",7
+"Metastases to bone",7
+"Metastases to lung",7
+"Migraine with aura",7
+"Mitral valve incompetence",7
+"Mood swings",7
+"Muscle disorder",7
+"Mycobacterium tuberculosis complex test positive",7
+"Myocardial ischaemia",7
+"Myoglobin urine present",7
+"Nail discolouration",7
+"Neck surgery",7
+"Nervous system disorder",7
+"Ocular icterus",7
+"Oesophageal perforation",7
+"Optic atrophy",7
+"Oral disorder",7
+"Oral mucosal erythema",7
+"Orchitis",7
+"Organising pneumonia",7
+"Osteonecrosis",7
+"Osteopenia",7
+"Pancreatitis acute",7
+"Panic attack",7
+"Paranasal sinus hypersecretion",7
+"Parosmia",7
+"Pelvic pain",7
+"Pemphigoid",7
+"Periarthritis",7
+"Peritoneal tuberculosis",7
+"Pharyngitis streptococcal",7
+"Photopsia",7
+"Pica",7
+"Platelet disorder",7
+"Pneumothorax spontaneous",7
+"Post-anoxic myoclonus",7
+"Postoperative wound infection",7
+"Procedural haemorrhage",7
+"Procedural nausea",7
+"Product label on wrong product",7
+"Prostatectomy",7
+"Pseudopolyp",7
+"Psychotic disorder",7
+"Pulmonary alveolar haemorrhage",7
+"Pulmonary function test decreased",7
+"Pulmonary thrombosis",7
+"Rectal ulcer",7
+"Rectocele",7
+"Rehabilitation therapy",7
+"Renal injury",7
+"Reticulocyte count increased",7
+"Retroperitoneal haemorrhage",7
+"Sick sinus syndrome",7
+"Sinus bradycardia",7
+"Skin wrinkling",7
+"Small fibre neuropathy",7
+"Smear cervix abnormal",7
+"Spinal column injury",7
+"Spinal cord injury cervical",7
+"Spinal cord injury lumbar",7
+"Spleen disorder",7
+"Splenomegaly",7
+"Spondylitis",7
+"Squamous cell carcinoma of the cervix",7
+"Stem cell transplant",7
+"Stress",7
+"Subcutaneous abscess",7
+"Subdural haemorrhage",7
+"Sudden hearing loss",7
+"Systemic inflammatory response syndrome",7
+"Testicular mass",7
+"Therapy cessation",7
+"Thoracic vertebral fracture",7
+"Thrombotic microangiopathy",7
+"Tongue discolouration",7
+"Transaminases increased",7
+"Treatment noncompliance",7
+"Trigger finger",7
+"Urinary tract infection bacterial",7
+"Uterine cyst",7
+"Uterine haemorrhage",7
+"Uterine malposition",7
+"Uterine prolapse",7
+"Varicella",7
+"Varicose vein",7
+"Vascular malformation",7
+"Venous thrombosis limb",7
+"Vocal cord polyp",7
+"Volvulus",7
+"Waist circumference increased",7
+"Wound dehiscence",7
+"Wound haemorrhage",7
+"Wrong drug administered",7
+"Accidental exposure to product by child",6
+"Acute kidney injury",6
+"Acute phosphate nephropathy",6
+"Ageusia",6
+"Application site erosion",6
+"Arnold-Chiari malformation",6
+"Arteriovenous malformation",6
+"Atelectasis",6
+"Back disorder",6
+"Bacterial tracheitis",6
+"Bladder spasm",6
+"Blood culture positive",6
+"Blood iron decreased",6
+"Body height decreased",6
+"Bone disorder",6
+"Breast calcifications",6
+"Breast cyst",6
+"Candida infection",6
+"Carotid artery aneurysm",6
+"Change of bowel habit",6
+"Chapped lips",6
+"Cholecystitis chronic",6
+"Chronic respiratory failure",6
+"Circumstance or information capable of leading to medication error",6
+"Colitis",6
+"Congenital anomaly",6
+"Congenital hydrocephalus",6
+"Crying",6
+"Culture positive",6
+"Culture urine positive",6
+"Cushingoid",6
+"Cystic fibrosis",6
+"Defaecation urgency",6
+"Deformity",6
+"Device related infection",6
+"Drug screen false positive",6
+"Dysplasia",6
+"Ear congestion",6
+"Economic problem",6
+"Energy increased",6
+"Eructation",6
+"Erythema of eyelid",6
+"Escherichia test positive",6
+"Expired drug administered",6
+"False positive investigation result",6
+"Feeling of despair",6
+"Foreign body",6
+"Fungal infection",6
+"Gastric ulcer haemorrhage",6
+"Gastroenteritis",6
+"Gastrointestinal pain",6
+"Gastrostomy",6
+"Generalised oedema",6
+"Glossodynia",6
+"Growth retardation",6
+"Guillain-Barre syndrome",6
+"Haemorrhage urinary tract",6
+"Haemorrhagic anaemia",6
+"Heart rate abnormal",6
+"Heart rate decreased",6
+"Helicobacter infection",6
+"Hepatic enzyme abnormal",6
+"Hunger",6
+"Hyperchlorhydria",6
+"Hypophosphataemia",6
+"Immunoglobulins increased",6
+"Inner ear disorder",6
+"Intentional drug misuse",6
+"Klebsiella test positive",6
+"Lip pain",6
+"Loss of employment",6
+"Lumbar vertebral fracture",6
+"Lung consolidation",6
+"Lymphopenia",6
+"Madarosis",6
+"Malignant neoplasm progression",6
+"Mania",6
+"Mastectomy",6
+"Maternal exposure during pregnancy",6
+"Medication error",6
+"Meningomyelocele",6
+"Menorrhagia",6
+"Mixed connective tissue disease",6
+"Mucous stools",6
+"Multiple sclerosis relapse",6
+"Nasal disorder",6
+"Neoplasm skin",6
+"Nightmare",6
+"Nodal rhythm",6
+"Nonspecific reaction",6
+"Nystagmus",6
+"Oral candidiasis",6
+"Orchidectomy",6
+"Oropharyngeal spasm",6
+"Oxygen saturation decreased",6
+"Packed red blood cell transfusion",6
+"Pancreatic carcinoma",6
+"Parkinson^s disease",6
+"Pelvic venous thrombosis",6
+"Periodontal disease",6
+"Periorbital oedema",6
+"Personality disorder",6
+"Physical disability",6
+"Prescribed underdose",6
+"Proctitis fungal",6
+"Product adhesion issue",6
+"Product use in unapproved indication",6
+"Psychological trauma",6
+"Pulmonary fibrosis",6
+"Rash papular",6
+"Raynaud^s phenomenon",6
+"Rectal adenocarcinoma",6
+"Reflux gastritis",6
+"Refractory anaemia with ringed sideroblasts",6
+"Renal cyst",6
+"Renal haemorrhage",6
+"Restrictive pulmonary disease",6
+"Rhabdomyolysis",6
+"Rhinitis",6
+"Secondary hypertension",6
+"Sinusitis bacterial",6
+"Skin burning sensation",6
+"Skin infection",6
+"Skin irritation",6
+"Skin reaction",6
+"Social problem",6
+"Sputum increased",6
+"Staphylococcal infection",6
+"Stress fracture",6
+"Tachycardia",6
+"Talipes",6
+"Tension",6
+"Thirst",6
+"Torsade de pointes",6
+"Tracheitis",6
+"Transverse sinus thrombosis",6
+"Ulcer",6
+"Urine analysis abnormal",6
+"Uterine fibrosis",6
+"Uterine perforation",6
+"Vitamin D increased",6
+"Yellow skin",6
+"Abortion spontaneous",4
+"Actinic keratosis",4
+"Anaphylactic shock",4
+"Ankylosing spondylitis",4
+"Antisynthetase syndrome",4
+"Aphthous ulcer",4
+"Artery dissection",4
+"Ascites",4
+"Autoimmune disorder",4
+"Bladder transitional cell carcinoma",4
+"Blepharitis",4
+"Body temperature increased",4
+"Bone swelling",4
+"Brain operation",4
+"Breast haemorrhage",4
+"Breast mass",4
+"CSF shunt irrigation",4
+"Cardiac flutter",4
+"Cardiac infection",4
+"Catarrh",4
+"Chalazion",4
+"Chorioretinopathy",4
+"Corneal disorder",4
+"Corneal perforation",4
+"Corneal thinning",4
+"Corneal transplant",4
+"Dark circles under eyes",4
+"Demyelination",4
+"Dengue fever",4
+"Developmental hip dysplasia",4
+"Drug administered to patient of inappropriate age",4
+"Dry throat",4
+"Dysphonia",4
+"Dysstasia",4
+"Dystonia",4
+"Ear disorder",4
+"Electrocardiogram abnormal",4
+"Emergency care",4
+"Encephalitis",4
+"Endometrial cancer",4
+"Epilepsy",4
+"Exercise tolerance decreased",4
+"Exostosis",4
+"Extra dose administered",4
+"Extrapulmonary tuberculosis",4
+"Extrasystoles",4
+"Eyelid oedema",4
+"Fear of disease",4
+"Feeling jittery",4
+"Foot operation",4
+"Fracture delayed union",4
+"Fractured coccyx",4
+"Gait inability",4
+"Genital infection fungal",4
+"Gingival inflammation",4
+"Glomerular filtration rate increased",4
+"Haemangioma",4
+"Hepatitis C",4
+"Hidradenitis",4
+"Immobile",4
+"Immunology test abnormal",4
+"Incorrect route of drug administration",4
+"Increased upper airway secretion",4
+"Injection site extravasation",4
+"Injection site haematoma",4
+"Injection site hypersensitivity",4
+"Injection site inflammation",4
+"Injection site plaque",4
+"Injection site pustule",4
+"Injection site ulcer",4
+"Intervertebral disc compression",4
+"Intervertebral disc disorder",4
+"Intestinal ischaemia",4
+"Intraocular lens implant",4
+"Iritis",4
+"Joint crepitation",4
+"Joint effusion",4
+"Joint instability",4
+"Knee operation",4
+"Lack of injection site rotation",4
+"Listless",4
+"Lower limb fracture",4
+"Macule",4
+"Melanocytic naevus",4
+"Motor dysfunction",4
+"Mucosal haemorrhage",4
+"Nail bed bleeding",4
+"Neuralgia",4
+"Ocular vascular disorder",4
+"Oral discomfort",4
+"Oral infection",4
+"Oral mucosal blistering",4
+"Oral surgery",4
+"Pallor",4
+"Paralysis",4
+"Paraspinal abscess",4
+"Pericardial effusion",4
+"Peripheral coldness",4
+"Pharyngeal oedema",4
+"Plasma cell myeloma recurrent",4
+"Pleuritic pain",4
+"Post procedural infection",4
+"Product dose omission",4
+"Prostatic disorder",4
+"Pterygium",4
+"Pulmonary artery dilatation",4
+"Pulmonary hypertension",4
+"Q fever",4
+"Rectal neoplasm",4
+"Rectal polyp",4
+"Respiratory disorder",4
+"Retrograde amnesia",4
+"Rotator cuff repair",4
+"Sarcoma of skin",4
+"Scar",4
+"Serum sickness",4
+"Skin tightness",4
+"Soft tissue infection",4
+"Solar dermatitis",4
+"Spinal column stenosis",4
+"Spinal fusion surgery",4
+"Squamous cell carcinoma of skin",4
+"Staphylococcal bacteraemia",4
+"Systemic lupus erythematosus",4
+"Tendon injury",4
+"Tibia fracture",4
+"Tooth infection",4
+"Treatment failure",4
+"Tympanic membrane perforation",4
+"Ulcerative keratitis",4
+"Umbilical cord around neck",4
+"Umbilical hernia",4
+"Urinary retention",4
+"Urinary tract disorder",4
+"Vaginal infection",4
+"Vascular pain",4
+"Vein discolouration",4
+"Vertigo",4
+"Vitamin D deficiency",4
+"Vulvovaginal mycotic infection",4
+"Weight",4
+"Wound secretion",4
+"Abscess",2
+"Accidental overdose",2
+"Adrenal gland injury",2
+"Alcohol use",2
+"Amaurosis fugax",2
+"Aneurysm",2
+"Arrhythmia",2
+"Arterial disorder",2
+"Atrial flutter",2
+"Atrial thrombosis",2
+"Autoimmune thyroiditis",2
+"B-cell lymphoma",2
+"Bladder disorder",2
+"Blood albumin decreased",2
+"Blood calcium increased",2
+"Blood cholesterol decreased",2
+"Blood potassium abnormal",2
+"Blood triglycerides decreased",2
+"Bone marrow leukaemic cell infiltration",2
+"Campylobacter gastroenteritis",2
+"Cardiovascular disorder",2
+"Chondrocalcinosis pyrophosphate",2
+"Circulatory collapse",2
+"Clavicle fracture",2
+"Cyst rupture",2
+"Cystitis haemorrhagic",2
+"Dementia",2
+"Dermatitis psoriasiform",2
+"Disease recurrence",2
+"Diverticulum",2
+"Drug eruption",2
+"Encephalopathy",2
+"Enterocolitis",2
+"Enterocolitis bacterial",2
+"Eye inflammation",2
+"Eye oedema",2
+"Eyelid disorder",2
+"Eyelid exfoliation",2
+"Eyelid irritation",2
+"Eyelid margin crusting",2
+"Eyelid pain",2
+"Eyelid skin dryness",2
+"Facial pain",2
+"Faecal volume decreased",2
+"Femur fracture",2
+"Fracture",2
+"Goodpasture^s syndrome",2
+"Gout",2
+"Graft versus host disease in gastrointestinal tract",2
+"Graft versus host disease in skin",2
+"Haemangioma of skin",2
+"Haemarthrosis",2
+"Hair growth abnormal",2
+"Hepatic enzyme increased",2
+"Hepatorenal syndrome",2
+"Herpes simplex",2
+"Hodgkin^s disease",2
+"Hordeolum",2
+"Hyperaesthesia",2
+"Hyperglycaemia",2
+"Hypokinesia",2
+"Hypothyroidism",2
+"Hypovolaemia",2
+"Initial insomnia",2
+"Injection site discolouration",2
+"Injection site discomfort",2
+"Injection site irritation",2
+"Injection site oedema",2
+"Intra-abdominal haemorrhage",2
+"Invasive ductal breast carcinoma",2
+"Iron deficiency",2
+"Keratitis",2
+"Leukopenia",2
+"Liver disorder",2
+"Lung adenocarcinoma",2
+"Lymphocytic leukaemia",2
+"Malignant melanoma",2
+"Metastatic malignant melanoma",2
+"Metastatic squamous cell carcinoma",2
+"Miliaria",2
+"Mucoepidermoid carcinoma of salivary gland",2
+"Mucosal inflammation",2
+"Multi-organ failure",2
+"Multiple organ dysfunction syndrome",2
+"Nail growth abnormal",2
+"Non-Hodgkin^s lymphoma",2
+"Ocular discomfort",2
+"Oesophageal achalasia",2
+"Open angle glaucoma",2
+"Open fracture",2
+"Ovarian cancer",2
+"Paget^s disease of nipple",2
+"Papule",2
+"Pathological fracture",2
+"Performance status decreased",2
+"Pericarditis",2
+"Peripheral vascular disorder",2
+"Phobia",2
+"Pneumonia legionella",2
+"Pneumonitis",2
+"Polyarthritis",2
+"Pre-existing condition improved",2
+"Product dose omission in error",2
+"Product dose omission issue",2
+"Protein total increased",2
+"Pruritus generalised",2
+"Pseudomonal bacteraemia",2
+"Rebound eczema",2
+"Refractory cytopenia with multilineage dysplasia",2
+"Restless legs syndrome",2
+"Seasonal allergy",2
+"Sinus operation",2
+"Skin swelling",2
+"Soliloquy",2
+"Squamous cell carcinoma of the hypopharynx",2
+"Sternal fracture",2
+"Sudden cardiac death",2
+"Superficial spreading melanoma stage unspecified",2
+"Swollen tongue",2
+"Thermal burn",2
+"Tongue injury",2
+"Tongue neoplasm malignant stage unspecified",2
+"Urine abnormality",2
+"Urticarial vasculitis",2
+"Vasculitis",2

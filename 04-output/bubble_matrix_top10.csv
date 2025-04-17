@@ -1,0 +1,60 @@
+"drug","side_effects","n"
+"aspirin","Abdominal pain",28
+"aspirin","Diarrhoea",91
+"aspirin","Dizziness",126
+"aspirin","Drug ineffective",35
+"aspirin","Dyspnoea",70
+"aspirin","Fatigue",126
+"aspirin","Headache",84
+"aspirin","Malaise",21
+"aspirin","Nausea",77
+"aspirin","Pain",63
+"dupixent","Diarrhoea",2
+"dupixent","Dizziness",8
+"dupixent","Drug ineffective",24
+"dupixent","Dyspnoea",12
+"dupixent","Fatigue",10
+"dupixent","Headache",10
+"dupixent","Malaise",8
+"dupixent","Nausea",8
+"dupixent","Pain",10
+"enbrel","Abdominal pain",12
+"enbrel","Diarrhoea",8
+"enbrel","Dizziness",20
+"enbrel","Drug ineffective",24
+"enbrel","Dyspnoea",16
+"enbrel","Fatigue",52
+"enbrel","Headache",32
+"enbrel","Malaise",24
+"enbrel","Nausea",12
+"enbrel","Pain",76
+"humira","Abdominal pain",147
+"humira","Diarrhoea",105
+"humira","Dizziness",28
+"humira","Drug ineffective",91
+"humira","Dyspnoea",63
+"humira","Fatigue",56
+"humira","Headache",42
+"humira","Malaise",98
+"humira","Nausea",77
+"humira","Pain",91
+"revlimid","Abdominal pain",4
+"revlimid","Diarrhoea",20
+"revlimid","Dizziness",6
+"revlimid","Drug ineffective",2
+"revlimid","Dyspnoea",10
+"revlimid","Fatigue",14
+"revlimid","Headache",2
+"revlimid","Malaise",6
+"revlimid","Nausea",8
+"revlimid","Pain",2
+"zantac","Abdominal pain",42
+"zantac","Diarrhoea",54
+"zantac","Dizziness",84
+"zantac","Drug ineffective",138
+"zantac","Dyspnoea",66
+"zantac","Fatigue",60
+"zantac","Headache",84
+"zantac","Malaise",72
+"zantac","Nausea",72
+"zantac","Pain",54
