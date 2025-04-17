@@ -1,0 +1,76 @@
+---
+title: "Drug Side Effect Analysis"
+output: html_document
+---
+
+**1. Introduction**
+
+In recent years, the monitoring and analysis of drug side effects has become increasingly important in pharmacovigilance and clinical research. Accurately identifying associations between pharmaceuticals and adverse drug reactions (ADRs) is vital to ensuring patient safety and supporting evidence-based medical decisions (Harpaz et al., 2012).
+
+One of the key challenges in this domain lies in the inconsistent representation of drug names—often appearing under multiple brand names, generic forms, or synonyms—which complicates data aggregation and analysis (Liu et al., 2015). Traditional string-matching approaches are often insufficient to resolve such variations reliably.
+
+With the emergence of large language models (LLMs), natural language processing (NLP) techniques have shown great potential in addressing semantic ambiguity across biomedical texts. These models have demonstrated high performance in generating and understanding human-like text, making them suitable for tasks such as synonym generation (Brown et al., 2020).
+
+In this project, an LLM was used to generate expanded synonym lists for medications, which were then enriched using a pharmacological API to retrieve associated side effects. This resulted in a drug-side effect dataset structured as a binary matrix, where each row represents a drug synonym and each column a potential side effect.
+
+Based on this matrix, both exploratory analyses and predictive models were developed. Exploratory steps included identifying the most frequent drugs and side effects, computing co-occurrence patterns, and visualizing these through bar plots, heatmaps, and bubble charts. Additionally, Random Forest classifiers were used to predict the presence of specific side effects from medication inputs. The feature importance scores derived from these models help identify which drugs are most predictive for particular side effects.
+
+To make these insights accessible, an interactive Shiny application was developed, allowing users to explore the data by querying individual drugs or synonyms and accessing analysis results dynamically. This tool can support pharmacovigilance efforts, academic research, and healthcare monitoring by offering an interpretable, data-driven view of drug-effect relationships.
+
+This report documents the full project workflow, including data acquisition, preprocessing, modeling, visualization, and deployment, while reflecting on its potential applications and limitations.
+
+**2. Data and Methods**
+
+This study is based on publicly available adverse event data from the [U.S. Food and Drug Administration’s OpenFDA API](https://open.fda.gov/apis/drug/event/) (FDA, n.d.). The dataset contains structured information about adverse events (side effects), medications (both brand and generic names), patient demographics, and event dates reported voluntarily to the FDA by healthcare professionals and the pharmaceutical industry.
+
+#### 2.1 Data Collection and Preprocessing
+
+The initial dataset was queried using the OpenFDA `drug/event` endpoint. A script was implemented in R to retrieve adverse event records related to the top 100 most frequently reported medications. Since drug names are often listed under multiple synonyms or brand names, we extended each entry using **Large Language Model (LLM)** support from OpenAI's GPT-3.5 API to generate additional synonyms per drug (*own implementation*).
+
+Each drug was enriched with side effects through a combined process of:
+- LLM-based synonym expansion
+- Automated API queries to OpenFDA
+- String cleaning and standardization (e.g., splitting multiple side effects separated by semicolons)
+
+The final dataset was transformed into a **binary matrix**, where each row represents a unique drug (or synonym) and each column a potential side effect. The presence of a side effect for a given drug is denoted as `1`.
+
+#### 2.2 Exploratory Data Analysis
+
+Multiple descriptive and visual analysis techniques were applied:
+- **Bar plots** to display the most frequent drugs and side effects
+- **Heatmaps** of drug–side effect co-occurrence (top 30 × top 30)
+- **Bubble plots** showing the strength of drug–side effect relationships
+- **Dendrograms** for hierarchical clustering of drug similarity based on their side effect profiles
+
+All analyses were performed in R using packages such as `tidyverse`, `ggplot2`, `plotly`, and `pheatmap`.
+
+#### 2.3 Classification Model
+
+To explore whether side effects could be predicted based on drug profiles, a **Random Forest** classifier was trained for each side effect using the binary matrix as input. Accuracy scores and feature importance were recorded to evaluate which side effects are best predicted and which drugs are most informative per side effect.
+
+This multi-label classification helped identify:
+- Which side effects are most predictable
+- Which drugs have the strongest predictive power for specific adverse reactions
+
+#### 2.4 Interactive Shiny Application
+
+Finally, a Shiny App was developed to make the results accessible to users. Key features include:
+- Searching by drug or synonym
+- Viewing all known synonyms of a drug
+- Displaying the top 3 most frequent side effects per drug
+- Interactive heatmaps and bubble charts using `plotly`
+- Data download options (CSV) for further research
+
+The app and all scripts are maintained in a structured GitHub repository.
+
+---
+
+**References**
+
+FDA. (n.d.). *OpenFDA API for drug event reporting*. https://open.fda.gov/apis/drug/event/
+
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Amodei, D. (2020). Language models are few-shot learners. *Advances in Neural Information Processing Systems, 33*, 1877–1901.
+
+Harpaz, R., DuMouchel, W., Shah, N. H., Madigan, D., Ryan, P., & Friedman, C. (2012). Novel data-mining methodologies for adverse drug event discovery and analysis. *Clinical Pharmacology & Therapeutics, 91*(6), 1010–1021. https://doi.org/10.1038/clpt.2012.50
+
+Liu, S., Shenoy, P., & Xu, H. (2015). Drug name recognition: Approaches and resources. *Information, 6*(4), 790–810. https://doi.org/10.3390/info6040790
