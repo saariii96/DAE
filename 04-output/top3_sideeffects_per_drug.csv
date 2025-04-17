@@ -1,0 +1,20 @@
+"drug","side_effects","n"
+"aspirin","Dizziness",126
+"aspirin","Fatigue",126
+"aspirin","Haemoglobin decreased",119
+"dupixent","Pruritus",58
+"dupixent","Conjunctivitis",38
+"dupixent","Product use issue",38
+"enbrel","Pain",76
+"enbrel","Arthralgia",68
+"enbrel","Injection site pain",64
+"humira","Abdominal pain",147
+"humira","Diarrhoea",105
+"humira","Malaise",98
+"revlimid","Death",84
+"revlimid","Plasma cell myeloma",40
+"revlimid","Pneumonia",30
+"zantac","Drug ineffective",138
+"zantac","Off label use",138
+"zantac","Dizziness",84
+"zantac","Headache",84
