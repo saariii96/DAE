@@ -34,9 +34,9 @@ text classification, and linking biomedical concepts (Brown et al.,
 In this project, an LLM (GPT-3.5-Turbo) was used to generate extended
 synonym lists for a number of the most commonly reported drugs. These
 synonyms were then used to improve the identification of drugs in the
-OpenFDA Adverse Event Reporting System (FAERS), from which drug-related
-adverse event data was extracted. By combining these sources, a more
-complete and representative adverse drug reaction dataset was created.
+OpenFDA Adverse Event Reporting System, from which drug-related adverse
+event data was extracted. By combining these sources, a more complete
+and representative adverse drug reaction dataset was created.
 
 This dataset was converted into a binary matrix format, with rows
 representing drug synonyms and columns representing specific adverse
@@ -119,12 +119,18 @@ reported for the corresponding drug synonym.
 #### 2.2 Exploratory data analysis
 
 Descriptive analysis techniques were used to uncover patterns of
-frequency and correlations. The most important visual tools included: -
-Bar charts showing the most frequently reported side effects and drugs -
-Heat maps (top 30 × top 30) to visualize the co-occurrence of drugs and
-side effects - Bubble plots to highlight the intensity and overlap of
-drug-effect relationships - Dendrograms to group drugs based on their
-side effect profiles
+frequency and correlations. The most important visual tools included:
+
+-   Bar charts showing the most frequently reported side effects and
+    drugs
+
+-   Heat maps (top 30 × top 30) to visualize the co-occurrence of drugs
+    and side effects
+
+-   Bubble plots to highlight the intensity and overlap of drug-effect
+    relationships
+
+-   Dendrograms to group drugs based on their side effect profiles
 
 These visualizations provided insight into which drugs tend to cause
 similar reactions and which side effects occur with multiple substances.
@@ -150,13 +156,19 @@ variable (i.e., side effect). This method treats each classification
 task independently and allows detailed performance evaluation per side
 effect.
 
-Each model was evaluated based on: - Prediction accuracy on a stratified
-70/30 train-test split - Feature importance scores (MeanDecreaseGini),
-indicating which drug synonyms were most predictive
+Each model was evaluated based on:
 
-This analysis revealed: - Which side effects were most predictable from
-drug profiles - Which medications were most strongly associated with
-individual adverse reactions
+-   Prediction accuracy on a stratified 70/30 train-test split
+
+-   Feature importance scores (MeanDecreaseGini), indicating which drug
+    synonyms were most predictive
+
+This analysis revealed:
+
+-   Which side effects were most predictable from drug profiles
+
+-   Which medications were most strongly associated with individual
+    adverse reactions
 
 In a secondary analysis, the same dataset was transposed so that side
 effects became predictors and the target remained a single side effect.
@@ -164,9 +176,12 @@ The aim was to evaluate whether the occurrence of one side effect could
 help predict the presence of another.
 
 This co-prediction approach uncovered potential dependencies and symptom
-clusters. Each model output revealed: - The predictive accuracy of a
-side effect based on others - Which side effects were most informative
-for predicting a specific outcome
+clusters. Each model output revealed:
+
+-   The predictive accuracy of a side effect based on others
+
+-   Which side effects were most informative for predicting a specific
+    outcome
 
 These insights may help generate hypotheses for further clinical
 investigation and support the detection of syndromic patterns in adverse
@@ -177,11 +192,16 @@ event reporting.
 #### 2.4 Interactive Shiny application
 
 To make the results accessible and usable for a wider audience, an
-interactive Shiny web application was developed. Key features include: -
-Search for drugs or synonyms - Display of all known synonyms per drug -
-Display of the three most common side effects per drug - Interactive
-heat maps and bubble charts using `plotly` - Export of analysis results
-as CSV
+interactive Shiny web application was developed. Key features include:
+
+-   Search for drugs or synonyms
+
+-   Display of all known synonyms per drug
+
+-   Display of the three most common side effects per drug
+
+-   Interactive heat maps and bubble charts using `plotly` - Export of
+    analysis results as CSV
 
 The application serves as a practical interface for exploring the
 underlying data and analysis results. The entire source code, data
@@ -192,20 +212,32 @@ repository] (<https://github.com/saariii96/DAE>).
 
 ### 3. Results
 
-This chapter presents the results of descriptive and predictive analyses
-performed on a drug–side effect dataset obtained via the OpenFDA API.
-The data was preprocessed and extended using synonym generation through
-an LLM (GPT-3.5), and structured into a binary matrix where each row
-represents a drug synonym and each column a reported side effect.
+This chapter presents the results of the descriptive and predictive
+analyses performed on the extended drug–side effect dataset, which was
+derived from the OpenFDA API. The dataset was enriched using synonym
+generation via a large language model (GPT-3.5) to improve drug name
+matching. The final dataset was transformed into a binary matrix, with
+rows representing drug synonyms and columns representing reported side
+effects. The analyses aimed to identify patterns in side effect
+distribution, explore drug profiles, and evaluate the ability of machine
+learning models to predict adverse reactions.
 
 ------------------------------------------------------------------------
 
 #### 3.1 Exploratory Analysis
 
+The first part of the analysis focused on descriptive statistics and
+visualizations to understand the distribution of side effects, their
+association with specific drugs, and co-occurrence patterns within the
+data.
+
+------------------------------------------------------------------------
+
 ##### 3.1.1 Most Frequently Reported Side Effects
 
-A frequency analysis was conducted on all reported side effects across
-the top 100 drugs.
+A frequency count was performed on all side effects across the top 100
+drugs to identify the most commonly reported symptoms. These are
+presented in the bar chart below.
 
 ![Top 15 Most Frequent Side
 Effects](07-figures/fig01_top15_sideeffects.png){width="80%"}
@@ -216,8 +248,10 @@ Effects](07-figures/fig01_top15_sideeffects.png){width="80%"}
 
 ##### 3.1.2 Drugs with Most Reported Side Effects
 
-The following figure shows the drugs associated with the highest number
-of distinct side effects.
+Next, the number of unique side effects associated with each drug was
+calculated. The following plot shows the 15 drugs with the highest
+number of distinct reported adverse events, providing insight into which
+medications have broader or more complex side effect profiles.
 
 ![Top 15 Drugs by Number of Side
 Effects](07-figures/fig02_top15_drugs.png){width="80%"}
@@ -229,8 +263,10 @@ effects.*
 
 ##### 3.1.3 Most Frequent Drug–Side Effect Combinations
 
-This figure highlights the most commonly co-reported drug–side effect
-pairs.
+The 20 most frequent drug–side effect combinations were identified based
+on absolute co-occurrence counts. This analysis highlights specific
+drug–symptom pairs that appear frequently in the dataset, offering a
+more detailed look at individual associations.
 
 ![Top 20 Drug–Side Effect
 Combinations](07-figures/fig03_top20_combinations.png){width="90%"}
@@ -241,8 +277,11 @@ Combinations](07-figures/fig03_top20_combinations.png){width="90%"}
 
 ##### 3.1.4 Drug–Side Effect Co-Occurrence Heatmap
 
-To examine similarities in drug profiles, a subset of the matrix was
-visualized using hierarchical clustering.
+To explore similarities across drug profiles, a heatmap was created
+using the top 30 drugs and top 30 side effects. Hierarchical clustering
+was applied to rows and columns to visualize grouping patterns. This
+allows for identification of clusters of drugs that share similar side
+effect profiles.
 
 ![Heatmap: Top 30 × 30 Drug–Side Effect
 Matrix](07-figures/fig05_heatmap_top30x30.png){width="100%"}
@@ -254,8 +293,10 @@ co-occurrence.*
 
 ##### 3.1.5 Bubble Plot of Top 10 × Top 10 Matrix
 
-This bubble chart visualizes co-occurrence frequencies between the 10
-most common drugs and side effects.
+A bubble chart was created to show the frequency of co-occurrence
+between the 10 most common drugs and the 10 most reported side effects.
+Bubble size reflects the number of times each drug–side effect pair
+appears in the dataset.
 
 ![Bubble Matrix: Top 10 Drugs × Top 10 Side
 Effects](07-figures/fig04_bubble_matrix.png){width="85%"}
@@ -267,10 +308,14 @@ effects.*
 
 #### 3.2 Drug-Based Classification
 
-To evaluate whether side effects could be predicted from drug data, a
-series of binary random forest models were trained. The following figure
-shows the most predictable side effects based on classification
-accuracy.
+To investigate whether side effects could be predicted from drug data, a
+series of binary random forest models were trained. Each model targeted
+a specific side effect and used drug synonyms as input features. Model
+performance was evaluated using accuracy on a test set.
+
+The plot below shows the 10 side effects with the highest prediction
+accuracy, indicating which symptoms are most strongly associated with
+particular drugs.
 
 ![Top 10 Most Predictable Side
 Effects](07-figures/fig07_top10_accuracy.png){width="80%"}
@@ -281,9 +326,11 @@ Effects](07-figures/fig07_top10_accuracy.png){width="80%"}
 
 #### 3.3 Side Effect Co-Prediction
 
-In a complementary analysis, models were trained to predict each side
-effect using all other side effects as input. This approach helps
-uncover symptom clusters and potential conditional dependencies.
+In a secondary analysis, a classification approach was used to predict
+the presence of one side effect based on the occurrence of all others.
+For each target side effect, a random forest model was trained using
+other side effects as input features. This method helps identify symptom
+clusters and frequently co-occurring reactions.
 
 ##### Hypertension
 
@@ -299,31 +346,126 @@ attack](07-figures/fig_Panic_attack_coprediction.png){width="80%"}
 
 *Figure 8: Top 10 side effects predictive of “Panic attack”.*
 
-*(Additional co-prediction plots are included in the Appendix.)*
-
 ------------------------------------------------------------------------
 
 ### 4. Discussion
 
-This study explored the integration of real-world drug surveillance data with language model-based synonym generation to improve the analysis of associations between drugs and adverse events. The main objective was to evaluate how combining structured event data from the OpenFDA API with LLM-based drug identification can support both descriptive and predictive assessments of adverse drug reactions (ADRs).
+This study explored the integration of real-world drug surveillance data
+with language model-based synonym generation to improve the analysis of
+associations between drugs and adverse events. The main objective was to
+evaluate how combining structured event data from the OpenFDA API with
+LLM-based drug identification can support both descriptive and
+predictive assessments of adverse drug reactions (ADRs).
 
-The frequency-based analyses in Section 3.1 confirmed known trends in pharmacovigilance data. Non-specific and frequently reported symptoms such as headache, nausea, and fatigue were among the most common, reflecting both the actual prevalence and reporting bias in voluntary reports. Medicines with a broad systemic effect—such as biologics and immunosuppressants—were associated with a high number of different adverse reactions, which is consistent with their pharmacological profile and their use in complex patient groups.
+The frequency-based analyses in Section 3.1 confirmed known trends in
+pharmacovigilance data. Non-specific and frequently reported symptoms
+such as headache, nausea, and fatigue were among the most common,
+reflecting both the actual prevalence and reporting bias in voluntary
+reports. Medicines with a broad systemic effect—such as biologics and
+immunosuppressants—were associated with a high number of different
+adverse reactions, which is consistent with their pharmacological
+profile and their use in complex patient groups.
 
-Visualizations such as the heat map and bubble plot illustrated clear patterns of co-occurrence of medicines and certain adverse reactions. Hierarchical clustering revealed that drugs with similar mechanisms of action or therapeutic areas tended to be grouped together based on their adverse reaction profiles. These results suggest that adverse reaction data can be used not only for post-marketing surveillance, but also to identify similarities between drugs in terms of their tolerability and risk profile.
+Visualizations such as the heat map and bubble plot illustrated clear
+patterns of co-occurrence of medicines and certain adverse reactions.
+Hierarchical clustering revealed that drugs with similar mechanisms of
+action or therapeutic areas tended to be grouped together based on their
+adverse reaction profiles. These results suggest that adverse reaction
+data can be used not only for post-marketing surveillance, but also to
+identify similarities between drugs in terms of their tolerability and
+risk profile.
 
-The classification results in Section 3.2 showed that certain side effects—such as panic attacks, high blood pressure, and hyperlipidemia—could be predicted with relatively high accuracy based solely on the drugs entered. This suggests that the occurrence of these side effects is closely related to specific drugs or drug classes. Random forest models performed well in this binary classification, and the extracted feature importance scores enabled an interpretable ranking of the drug predictors.
+The classification results in Section 3.2 showed that certain side
+effects—such as panic attacks, high blood pressure, and
+hyperlipidemia—could be predicted with relatively high accuracy based
+solely on the drugs entered. This suggests that the occurrence of these
+side effects is closely related to specific drugs or drug classes.
+Random forest models performed well in this binary classification, and
+the extracted feature importance scores enabled an interpretable ranking
+of the drug predictors.
 
-The second classification task, joint prediction of side effects (Section 3.3), extended this approach by using other side effects as input variables. This approach showed that multiple side effects often occur together in a predictable manner. For example, fluid retention and hyperlipidemia were among the most important predictors of high blood pressure. This could be useful for clinical decisions or warning systems where the presence of one symptom increases the likelihood of another.
+The second classification task, joint prediction of side effects
+(Section 3.3), extended this approach by using other side effects as
+input variables. This approach showed that multiple side effects often
+occur together in a predictable manner. For example, fluid retention and
+hyperlipidemia were among the most important predictors of high blood
+pressure. This could be useful for clinical decisions or warning systems
+where the presence of one symptom increases the likelihood of another.
 
-An interesting aspect of this project was the use of a large language model (GPT-3.5) to generate synonym lists for drugs. This addresses a common limitation in real-world data analysis: the inconsistent reporting of drug names across different sources, including brand names, generics, and abbreviations. By generating expanded synonym lists for each drug, more relevant data could be captured via the OpenFDA API, which in turn improved the completeness and quality of the adverse reaction matrix.
+An interesting aspect of this project was the use of a large language
+model (GPT-3.5) to generate synonym lists for drugs. This addresses a
+common limitation in real-world data analysis: the inconsistent
+reporting of drug names across different sources, including brand names,
+generics, and abbreviations. By generating expanded synonym lists for
+each drug, more relevant data could be captured via the OpenFDA API,
+which in turn improved the completeness and quality of the adverse
+reaction matrix.
 
-In summary, the combination of LLM-based synonym expansion and structured pharmacovigilance data provided deeper insights into the drug safety landscape. The results are promising for scalable, semi-automated systems to support pharmacovigilance, research, and potentially personalized medicine. The approach could be extended to larger drug sets and multilingual data in future applications.
+In summary, the combination of LLM-based synonym expansion and
+structured pharmacovigilance data provided deeper insights into the drug
+safety landscape. The results are promising for scalable, semi-automated
+systems to support pharmacovigilance, research, and potentially
+personalized medicine. The approach could be extended to larger drug
+sets and multilingual data in future applications.
+
+------------------------------------------------------------------------
+
+### 5. Limitations
+
+Despite the promising results of this project, several limitations must
+be taken into account when interpreting the findings. First, the
+underlying data from the OpenFDA database is based on voluntary adverse
+event reporting. This introduces known biases such as underreporting,
+selective reporting, and inconsistencies in the level of detail across
+records. As a result, the observed frequencies and associations may not
+reflect actual clinical prevalence.
+
+Furthermore, the dataset lacks contextual clinical information such as
+dosage, treatment duration, patient age, comorbidities, or concomitant
+medications. These factors can significantly influence the occurrence
+and interpretation of side effects but were not available in the present
+data structure. The use of a binary matrix to represent drug–side effect
+relationships, while computationally convenient, also simplifies the
+complexity of real-world reactions, which often involve gradients of
+severity, temporal progression, and multifactorial causes.
+
+The use of a large language model (GPT-3.5) to generate drug synonyms
+represents a novel step toward expanding dataset coverage. However,
+these generated synonyms were not manually validated, and it remains
+possible that some irrelevant or incorrect synonyms were introduced,
+potentially affecting the reliability of side effect mapping.
+Additionally, while the classification models demonstrated good
+performance on internal test sets, they were not externally validated on
+independent datasets. This limits the generalizability of the results
+and necessitates further testing in different contexts or populations.
+
+Finally, all analyses performed in this study are correlational in
+nature. No causal inference can be drawn from co-occurrence patterns
+alone, and observed associations may reflect shared risk factors,
+reporting conventions, or indication overlaps rather than direct
+pharmacological effects.
+
+------------------------------------------------------------------------
+
+### 6. Outlook and Future Work
+
+The approach presented in this project could be expanded in several
+ways. Integrating clinical data, such as electronic health records,
+would improve the context and precision of predictions. The use of
+standardized medical vocabularies could enhance term matching and
+consistency.
+
+Advanced models, such as deep learning architectures, might capture more
+complex patterns. In the future, the Shiny app could evolve into a
+clinical support tool. Validating the results with expert knowledge and
+applying the method to broader or multilingual datasets would further
+increase its applicability and reliability.
 
 ------------------------------------------------------------------------
 
 # Appendix
 
-## A.1 Additional Feature Importance Plots – Drug-Based Classification
+## Additional Feature Importance Plots – Drug-Based Classification
 
 The following figures show the top 10 most predictive drug synonyms for
 the remaining side effects included in the classification analysis:
@@ -384,7 +526,6 @@ sweats](07-figures/fig_Night_sweats_importance.png){width="80%"}
 
 *Figure A8: Top 10 predictive drugs for “Night sweats”.*
 
-
 ------------------------------------------------------------------------
 
 # References
@@ -399,11 +540,19 @@ sweats](07-figures/fig_Night_sweats_importance.png){width="80%"}
     chemical, biological, and phenotypic properties of drugs. *Journal
     of the American Medical Informatics Association*, 19(e1), e28–e35.
 
--   Tiktinsky, R., Steinberg, D. M., & Shabtai, A. (2023). Improving Adverse      Drug Reaction Signal Detection Using Drug Name Normalization with Transformer Models. Journal of Biomedical Informatics, 138, 104369.    
+-   Tiktinsky, R., Steinberg, D. M., & Shabtai, A. (2023). Improving
+    Adverse Drug Reaction Signal Detection Using Drug Name Normalization
+    with Transformer Models. Journal of Biomedical Informatics, 138,
 
--   Sung, A., Wang, Y., & Chen, Q. (2023). Biomedical Synonym Generation using     Instruction-Fine-Tuned Language Models. Proceedings of ACL 2023.
+    104369. 
 
--   Brown, T., et al. (2020). Language Models are Few-Shot Learners. NeurIPS.
+-   Sung, A., Wang, Y., & Chen, Q. (2023). Biomedical Synonym Generation
+    using Instruction-Fine-Tuned Language Models. Proceedings of ACL
+
+    2023. 
+
+-   Brown, T., et al. (2020). Language Models are Few-Shot Learners.
+    NeurIPS.
 
 -   FDA (n.d.). FDA OpenFDA API – Drug Event Endpoint.
     <https://open.fda.gov/apis/drug/event/>
