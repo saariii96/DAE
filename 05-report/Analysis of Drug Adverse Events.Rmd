@@ -8,6 +8,8 @@ editor_options:
     wrap: 72
 ---
 
+## **Data Mining: Analysis of Drug Adverse Events**
+
 **1. Introduction**
 
 In recent years, the monitoring and analysis of adverse drug reactions
@@ -19,10 +21,9 @@ support evidence-based medical decision-making (Harpaz et al., 2012).
 One of the main challenges in this area is the inconsistent
 representation of drug names - which often appear under multiple brand
 names, generic forms or synonyms - making data collection and analysis
-difficult (Liu et al., 2015). Conventional
-string matching approaches are often insufficient to reliably resolve
-such variations and can lead to incomplete datasets and overlooked
-signals.
+difficult (Liu et al., 2015). Conventional string matching approaches
+are often insufficient to reliably resolve such variations and can lead
+to incomplete datasets and overlooked signals.
 
 With the advent of large language models (LLMs), natural language
 processing (NLP) techniques have shown great potential for resolving
