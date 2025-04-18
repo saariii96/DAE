@@ -19,7 +19,7 @@ support evidence-based medical decision-making (Harpaz et al., 2012).
 One of the main challenges in this area is the inconsistent
 representation of drug names - which often appear under multiple brand
 names, generic forms or synonyms - making data collection and analysis
-difficult (Liu et al., 2015; Tiktinsky et al., 2023). Conventional
+difficult (Liu et al., 2015). Conventional
 string matching approaches are often insufficient to reliably resolve
 such variations and can lead to incomplete datasets and overlooked
 signals.
@@ -29,7 +29,7 @@ processing (NLP) techniques have shown great potential for resolving
 semantic ambiguities in biomedical texts. These models, such as OpenAI's
 GPT, have shown top performance in tasks such as synonym generation,
 text classification, and linking biomedical concepts (Brown et al.,
-2020; Sung et al., 2023).
+2020).
 
 In this project, an LLM (GPT-3.5-Turbo) was used to generate extended
 synonym lists for a number of the most commonly reported drugs. These
@@ -539,17 +539,6 @@ sweats](07-figures/fig_Night_sweats_importance.png){width="80%"}
     (2015). Large-scale prediction of adverse drug reactions using
     chemical, biological, and phenotypic properties of drugs. *Journal
     of the American Medical Informatics Association*, 19(e1), e28–e35.
-
--   Tiktinsky, R., Steinberg, D. M., & Shabtai, A. (2023). Improving
-    Adverse Drug Reaction Signal Detection Using Drug Name Normalization
-    with Transformer Models. Journal of Biomedical Informatics, 138,
-
-    104369. 
-
--   Sung, A., Wang, Y., & Chen, Q. (2023). Biomedical Synonym Generation
-    using Instruction-Fine-Tuned Language Models. Proceedings of ACL
-
-    2023. 
 
 -   Brown, T., et al. (2020). Language Models are Few-Shot Learners.
     NeurIPS.
