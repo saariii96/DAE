@@ -5,19 +5,23 @@ output: html_document
 
 **1. Introduction**
 
-In recent years, the monitoring and analysis of drug side effects has become increasingly important in pharmacovigilance and clinical research. Accurately identifying associations between pharmaceuticals and adverse drug reactions (ADRs) is vital to ensuring patient safety and supporting evidence-based medical decisions (Harpaz et al., 2012).
+In recent years, the monitoring and analysis of adverse drug reactions has become increasingly important in pharmacovigilance and clinical research. The accurate identification of associations between drugs and adverse drug reactions (ADRs) is essential to ensure patient safety and support evidence-based medical decision-making (Harpaz et al., 2012).
 
-One of the key challenges in this domain lies in the inconsistent representation of drug names—often appearing under multiple brand names, generic forms, or synonyms—which complicates data aggregation and analysis (Liu et al., 2015). Traditional string-matching approaches are often insufficient to resolve such variations reliably.
+One of the main challenges in this area is the inconsistent representation of drug names - which often appear under multiple brand names, generic forms or synonyms - making data collection and analysis difficult (Liu et al., 2015; Tiktinsky et al., 2023). Conventional string matching approaches are often insufficient to reliably resolve such variations and can lead to incomplete datasets and overlooked signals.
 
-With the emergence of large language models (LLMs), natural language processing (NLP) techniques have shown great potential in addressing semantic ambiguity across biomedical texts. These models have demonstrated high performance in generating and understanding human-like text, making them suitable for tasks such as synonym generation (Brown et al., 2020).
+With the advent of large language models (LLMs), natural language processing (NLP) techniques have shown great potential for resolving semantic ambiguities in biomedical texts. These models, such as OpenAI's GPT, have shown top performance in tasks such as synonym generation, text classification, and linking biomedical concepts (Brown et al., 2020; Sung et al., 2023).
 
-In this project, an LLM was used to generate expanded synonym lists for medications, which were then enriched using a pharmacological API to retrieve associated side effects. This resulted in a drug-side effect dataset structured as a binary matrix, where each row represents a drug synonym and each column a potential side effect.
+In this project, an LLM (GPT-3.5-Turbo) was used to generate extended synonym lists for a number of the most commonly reported drugs. These synonyms were then used to improve the identification of drugs in the OpenFDA Adverse Event Reporting System (FAERS), from which drug-related adverse event data was extracted. By combining these sources, a more complete and representative adverse drug reaction dataset was created.
 
-Based on this matrix, both exploratory analyses and predictive models were developed. Exploratory steps included identifying the most frequent drugs and side effects, computing co-occurrence patterns, and visualizing these through bar plots, heatmaps, and bubble charts. Additionally, Random Forest classifiers were used to predict the presence of specific side effects from medication inputs. The feature importance scores derived from these models help identify which drugs are most predictive for particular side effects.
+This dataset was converted into a binary matrix format, with rows representing drug synonyms and columns representing specific adverse drug reactions. Both exploratory and predictive analyses were performed on this basis. Exploratory steps included the identification of common adverse drug reactions, patterns of co-occurrence of drugs and reactions, and the visualization of these relationships using bar charts, heat maps, bubble plots and clustering.
 
-To make these insights accessible, an interactive Shiny application was developed, allowing users to explore the data by querying individual drugs or synonyms and accessing analysis results dynamically. This tool can support pharmacovigilance efforts, academic research, and healthcare monitoring by offering an interpretable, data-driven view of drug-effect relationships.
+In addition, a machine learning component was added to the pipeline, where random forest classifiers were trained to predict the presence of individual side effects based on the drug profile. The feature importance scores derived from these models were used to determine which drugs contribute most to the prediction of specific side effects.
 
-This report documents the full project workflow, including data acquisition, preprocessing, modeling, visualization, and deployment, while reflecting on its potential applications and limitations.
+To make these findings accessible and actionable, a Shiny web application was developed that allows users to interactively query the drug-side effect matrix, examine patterns, and filter results by individual drug or drug group.
+
+This project had two objectives: (1) to develop a technically innovative system that utilizes state-of-the-art NLP and public health data for improved adverse drug reaction detection, and (2) to create a practical tool that bridges the gap between academic research and real-world healthcare applications. As part of a master's degree program in health sciences, this work reflects both scientific rigor and clinical relevance.
+
+This report describes the entire workflow of the project - from data collection and enrichment to modeling, visualization, and deployment - and concludes with a discussion of potential future extensions and limitations.
 
 **2. Data and Methods**
 

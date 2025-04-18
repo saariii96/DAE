@@ -213,3 +213,30 @@ ggplot(top_features, aes(x = reorder(medikament, MeanDecreaseGini), y = MeanDecr
     x = "Medikament",
     y = "Feature Importance (MeanDecreaseGini)"
   )
+
+
+# 1. Top 10 Nebenwirkungen nach Accuracy
+write.csv(top10_accuracy, "04-output/top10_accuracy.csv", row.names = FALSE)
+
+# 2. Wichtigste Medikamente pro Nebenwirkung (jede Nebenwirkung als eigene Datei)
+for (side_effect in names(top_accuracies)) {
+  model_info <- results[[side_effect]]
+  
+  if (is.null(model_info$importance)) next
+  
+  imp_df <- as.data.frame(model_info$importance)
+  imp_df$medikament <- rownames(imp_df)
+  
+  top_features <- imp_df %>%
+    arrange(desc(MeanDecreaseGini)) %>%
+    slice_head(n = 10)
+  
+  file_safe_name <- gsub("[^A-Za-z0-9_]", "_", side_effect)
+  file_path <- paste0("04-output/importance_", file_safe_name, "_top10.csv")
+  
+  write.csv(top_features, file_path, row.names = FALSE)
+}
+
+# 3. Optional: Ein Beispiel aus dem 2. Analyseblock (z. B. Hypertension)
+write.csv(top_features, "04-output/importance_Hypertension_top10.csv", row.names = FALSE)
+
