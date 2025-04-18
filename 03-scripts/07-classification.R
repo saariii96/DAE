@@ -240,3 +240,36 @@ for (side_effect in names(top_accuracies)) {
 # 3. Optional: Ein Beispiel aus dem 2. Analyseblock (z. B. Hypertension)
 write.csv(top_features, "04-output/importance_Hypertension_top10.csv", row.names = FALSE)
 
+#figures
+# Barplot: Accuracy of top 10 predictable side effects
+p_acc <- ggplot(top10_accuracy, aes(x = reorder(side_effect, accuracy), y = accuracy)) +
+  geom_col(fill = "forestgreen") +
+  coord_flip() +
+  labs(title = "Top 10 Predictable Side Effects",
+       x = "Side Effect", y = "Accuracy (%)")
+ggsave("07-figures/fig07_top10_accuracy.png", p_acc, width = 8, height = 5, dpi = 300)
+
+# Feature importance plots (loop für alle Top-Nebenwirkungen)
+for (side_effect in names(top_accuracies)) {
+  model_info <- results[[side_effect]]
+  if (is.null(model_info$importance)) next
+  
+  imp_df <- as.data.frame(model_info$importance)
+  imp_df$medikament <- rownames(imp_df)
+  
+  top_features <- imp_df %>%
+    arrange(desc(MeanDecreaseGini)) %>%
+    slice_head(n = 10)
+  
+  p <- ggplot(top_features, aes(x = reorder(medikament, MeanDecreaseGini), y = MeanDecreaseGini)) +
+    geom_col(fill = "tomato") +
+    coord_flip() +
+    labs(
+      title = paste("Top 10 Predictive Drugs for:", side_effect),
+      x = "Drug",
+      y = "Feature Importance (MeanDecreaseGini)"
+    )
+  
+  file_safe <- gsub("[^A-Za-z0-9]", "_", side_effect)
+  ggsave(paste0("07-figures/fig_", file_safe, "_importance.png"), p, width = 8, height = 5, dpi = 300)
+}

@@ -235,4 +235,49 @@ plot_ly(
     xaxis = list(title = "Side Effect", tickangle = 45),
     yaxis = list(title = "Drug", automargin = TRUE)
   )
+--------------------------
+#Figures
+--------------------------
+# Top 15 side effects
+p1 <- ggplot(all_effects[1:15, ], aes(x = reorder(side_effects, n), y = n)) +
+  geom_col(fill = "darkred") +
+  coord_flip() +
+  labs(title = "Top 15 Most Frequent Side Effects",
+       x = "Side Effect", y = "Count")
+ggsave("07-figures/fig01_top15_sideeffects.png", p1, width = 8, height = 5, dpi = 300)
 
+# Top 15 drugs with most side effects
+p2 <- ggplot(top_drugs, aes(x = reorder(drug, n), y = n)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Top 15 Drugs by Number of Side Effects",
+       x = "Drug", y = "Count")
+ggsave("07-figures/fig02_top15_drugs.png", p2, width = 8, height = 5, dpi = 300)
+
+# Top 20 drug × side effect combinations
+p3 <- ggplot(top_combinations, aes(x = reorder(paste(drug, side_effects, sep = " × "), n), y = n)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Top 20 Drug × Side Effect Combinations",
+       x = "Drug × Side Effect", y = "Frequency")
+ggsave("07-figures/fig03_top20_combinations.png", p3, width = 10, height = 6, dpi = 300)
+
+# Bubble plot: top 10 drugs × top 10 effects
+p4 <- ggplot(bubble_data, aes(x = side_effects, y = drug, size = n)) +
+  geom_point(color = "darkred", alpha = 0.7) +
+  labs(title = "Drug × Side Effect Association",
+       subtitle = "Bubble size indicates frequency of co-occurrence",
+       x = "Side Effect", y = "Drug", size = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave("07-figures/fig04_bubble_matrix.png", p4, width = 8, height = 6, dpi = 300)
+
+#Heatmap
+png("07-figures/fig05_heatmap_top30x30.png", width = 1000, height = 1000)
+pheatmap(drug_matrix_top30,
+         cluster_rows = TRUE,
+         cluster_cols = TRUE,
+         fontsize_row = 8,
+         fontsize_col = 8,
+         main = "Heatmap: Top 30 Drugs × Top 30 Side Effects")
+dev.off()
