@@ -546,3 +546,5 @@ sweats](07-figures/fig_Night_sweats_importance.png){width="80%"}
 
 -   FDA (n.d.). FDA OpenFDA API – Drug Event Endpoint.
     <https://open.fda.gov/apis/drug/event/>
+
+-   Chat GPT was used to get an Rmarkdown file and to improve the text and for codes    
